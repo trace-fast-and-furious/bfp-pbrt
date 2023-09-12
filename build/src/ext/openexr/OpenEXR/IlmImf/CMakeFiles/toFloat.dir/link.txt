@@ -1,1 +1,0 @@
-/usr/bin/clang++  -Wno-switch -Wno-tautological-compare -Wno-deprecated-register -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/toFloat.dir/toFloat.cpp.o -o toFloat 
