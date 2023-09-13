@@ -73,15 +73,15 @@ src/ext/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o: src/ex
 src/ext/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle_unittest.cc
 src/ext/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o: src/ext/glog/CMakeFiles/demangle_unittest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/ext/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o -MF CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o.d -o CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle_unittest.cc
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o -MF CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o.d -o CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle_unittest.cc
 
 src/ext/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle_unittest.cc > CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle_unittest.cc > CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.i
 
 src/ext/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle_unittest.cc -o CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle_unittest.cc -o CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.s
 
 # Object files for target demangle_unittest
 demangle_unittest_OBJECTS = \

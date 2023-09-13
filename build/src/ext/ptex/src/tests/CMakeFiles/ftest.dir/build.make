@@ -73,15 +73,15 @@ src/ext/ptex/src/tests/CMakeFiles/ftest.dir/ftest.cpp.o: src/ext/ptex/src/tests/
 src/ext/ptex/src/tests/CMakeFiles/ftest.dir/ftest.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ptex/src/tests/ftest.cpp
 src/ext/ptex/src/tests/CMakeFiles/ftest.dir/ftest.cpp.o: src/ext/ptex/src/tests/CMakeFiles/ftest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/ext/ptex/src/tests/CMakeFiles/ftest.dir/ftest.cpp.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/ptex/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/ptex/src/tests/CMakeFiles/ftest.dir/ftest.cpp.o -MF CMakeFiles/ftest.dir/ftest.cpp.o.d -o CMakeFiles/ftest.dir/ftest.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ptex/src/tests/ftest.cpp
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/ptex/src/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/ptex/src/tests/CMakeFiles/ftest.dir/ftest.cpp.o -MF CMakeFiles/ftest.dir/ftest.cpp.o.d -o CMakeFiles/ftest.dir/ftest.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ptex/src/tests/ftest.cpp
 
 src/ext/ptex/src/tests/CMakeFiles/ftest.dir/ftest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ftest.dir/ftest.cpp.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/ptex/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ptex/src/tests/ftest.cpp > CMakeFiles/ftest.dir/ftest.cpp.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/ptex/src/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ptex/src/tests/ftest.cpp > CMakeFiles/ftest.dir/ftest.cpp.i
 
 src/ext/ptex/src/tests/CMakeFiles/ftest.dir/ftest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ftest.dir/ftest.cpp.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/ptex/src/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ptex/src/tests/ftest.cpp -o CMakeFiles/ftest.dir/ftest.cpp.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/ptex/src/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ptex/src/tests/ftest.cpp -o CMakeFiles/ftest.dir/ftest.cpp.s
 
 # Object files for target ftest
 ftest_OBJECTS = \

@@ -36,9 +36,7 @@
 #include <glog/logging.h>
 
 #include "api.h"
-#include "bfp/bfpblock.h"
-#include "bfp/bfpnum.h"
-#include "bfp/bfputility.h"
+#include "bfpblock.h"
 #include "parallel.h"
 #include "parser.h"
 

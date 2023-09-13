@@ -1058,78 +1058,6 @@ src/accelerators/kdtreeaccel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.s
 .PHONY : src/accelerators/kdtreeaccel.cpp.s
 
-src/bfp/bfpblock.o: src/bfp/bfpblock.cpp.o
-.PHONY : src/bfp/bfpblock.o
-
-# target to build an object file
-src/bfp/bfpblock.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o
-.PHONY : src/bfp/bfpblock.cpp.o
-
-src/bfp/bfpblock.i: src/bfp/bfpblock.cpp.i
-.PHONY : src/bfp/bfpblock.i
-
-# target to preprocess a source file
-src/bfp/bfpblock.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.i
-.PHONY : src/bfp/bfpblock.cpp.i
-
-src/bfp/bfpblock.s: src/bfp/bfpblock.cpp.s
-.PHONY : src/bfp/bfpblock.s
-
-# target to generate assembly for a file
-src/bfp/bfpblock.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.s
-.PHONY : src/bfp/bfpblock.cpp.s
-
-src/bfp/bfpnum.o: src/bfp/bfpnum.cpp.o
-.PHONY : src/bfp/bfpnum.o
-
-# target to build an object file
-src/bfp/bfpnum.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o
-.PHONY : src/bfp/bfpnum.cpp.o
-
-src/bfp/bfpnum.i: src/bfp/bfpnum.cpp.i
-.PHONY : src/bfp/bfpnum.i
-
-# target to preprocess a source file
-src/bfp/bfpnum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.i
-.PHONY : src/bfp/bfpnum.cpp.i
-
-src/bfp/bfpnum.s: src/bfp/bfpnum.cpp.s
-.PHONY : src/bfp/bfpnum.s
-
-# target to generate assembly for a file
-src/bfp/bfpnum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.s
-.PHONY : src/bfp/bfpnum.cpp.s
-
-src/bfp/bfputility.o: src/bfp/bfputility.cpp.o
-.PHONY : src/bfp/bfputility.o
-
-# target to build an object file
-src/bfp/bfputility.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o
-.PHONY : src/bfp/bfputility.cpp.o
-
-src/bfp/bfputility.i: src/bfp/bfputility.cpp.i
-.PHONY : src/bfp/bfputility.i
-
-# target to preprocess a source file
-src/bfp/bfputility.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.i
-.PHONY : src/bfp/bfputility.cpp.i
-
-src/bfp/bfputility.s: src/bfp/bfputility.cpp.s
-.PHONY : src/bfp/bfputility.s
-
-# target to generate assembly for a file
-src/bfp/bfputility.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.s
-.PHONY : src/bfp/bfputility.cpp.s
-
 src/cameras/environment.o: src/cameras/environment.cpp.o
 .PHONY : src/cameras/environment.o
 
@@ -1249,6 +1177,78 @@ src/core/api.s: src/core/api.cpp.s
 src/core/api.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/core/api.cpp.s
 .PHONY : src/core/api.cpp.s
+
+src/core/bfpblock.o: src/core/bfpblock.cpp.o
+.PHONY : src/core/bfpblock.o
+
+# target to build an object file
+src/core/bfpblock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/core/bfpblock.cpp.o
+.PHONY : src/core/bfpblock.cpp.o
+
+src/core/bfpblock.i: src/core/bfpblock.cpp.i
+.PHONY : src/core/bfpblock.i
+
+# target to preprocess a source file
+src/core/bfpblock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/core/bfpblock.cpp.i
+.PHONY : src/core/bfpblock.cpp.i
+
+src/core/bfpblock.s: src/core/bfpblock.cpp.s
+.PHONY : src/core/bfpblock.s
+
+# target to generate assembly for a file
+src/core/bfpblock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/core/bfpblock.cpp.s
+.PHONY : src/core/bfpblock.cpp.s
+
+src/core/bfpnum.o: src/core/bfpnum.cpp.o
+.PHONY : src/core/bfpnum.o
+
+# target to build an object file
+src/core/bfpnum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/core/bfpnum.cpp.o
+.PHONY : src/core/bfpnum.cpp.o
+
+src/core/bfpnum.i: src/core/bfpnum.cpp.i
+.PHONY : src/core/bfpnum.i
+
+# target to preprocess a source file
+src/core/bfpnum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/core/bfpnum.cpp.i
+.PHONY : src/core/bfpnum.cpp.i
+
+src/core/bfpnum.s: src/core/bfpnum.cpp.s
+.PHONY : src/core/bfpnum.s
+
+# target to generate assembly for a file
+src/core/bfpnum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/core/bfpnum.cpp.s
+.PHONY : src/core/bfpnum.cpp.s
+
+src/core/bfputility.o: src/core/bfputility.cpp.o
+.PHONY : src/core/bfputility.o
+
+# target to build an object file
+src/core/bfputility.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/core/bfputility.cpp.o
+.PHONY : src/core/bfputility.cpp.o
+
+src/core/bfputility.i: src/core/bfputility.cpp.i
+.PHONY : src/core/bfputility.i
+
+# target to preprocess a source file
+src/core/bfputility.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/core/bfputility.cpp.i
+.PHONY : src/core/bfputility.cpp.i
+
+src/core/bfputility.s: src/core/bfputility.cpp.s
+.PHONY : src/core/bfputility.s
+
+# target to generate assembly for a file
+src/core/bfputility.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/core/bfputility.cpp.s
+.PHONY : src/core/bfputility.cpp.s
 
 src/core/bssrdf.o: src/core/bssrdf.cpp.o
 .PHONY : src/core/bssrdf.o
@@ -4502,15 +4502,6 @@ help:
 	@echo "... src/accelerators/kdtreeaccel.o"
 	@echo "... src/accelerators/kdtreeaccel.i"
 	@echo "... src/accelerators/kdtreeaccel.s"
-	@echo "... src/bfp/bfpblock.o"
-	@echo "... src/bfp/bfpblock.i"
-	@echo "... src/bfp/bfpblock.s"
-	@echo "... src/bfp/bfpnum.o"
-	@echo "... src/bfp/bfpnum.i"
-	@echo "... src/bfp/bfpnum.s"
-	@echo "... src/bfp/bfputility.o"
-	@echo "... src/bfp/bfputility.i"
-	@echo "... src/bfp/bfputility.s"
 	@echo "... src/cameras/environment.o"
 	@echo "... src/cameras/environment.i"
 	@echo "... src/cameras/environment.s"
@@ -4526,6 +4517,15 @@ help:
 	@echo "... src/core/api.o"
 	@echo "... src/core/api.i"
 	@echo "... src/core/api.s"
+	@echo "... src/core/bfpblock.o"
+	@echo "... src/core/bfpblock.i"
+	@echo "... src/core/bfpblock.s"
+	@echo "... src/core/bfpnum.o"
+	@echo "... src/core/bfpnum.i"
+	@echo "... src/core/bfpnum.s"
+	@echo "... src/core/bfputility.o"
+	@echo "... src/core/bfputility.i"
+	@echo "... src/core/bfputility.s"
 	@echo "... src/core/bssrdf.o"
 	@echo "... src/core/bssrdf.i"
 	@echo "... src/core/bssrdf.s"

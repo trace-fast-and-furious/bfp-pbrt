@@ -14,7 +14,7 @@ CostDataFile:
 Site: alice.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Darwin-clang++
+BuildName: Darwin-c++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -63,7 +63,7 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/clang++
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CompilerVersion: 13.1.6.13160021
 
 # Dynamic analysis (MemCheck)

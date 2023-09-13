@@ -73,15 +73,15 @@ src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/eLut.cpp.o: src/ext/openexr/Ilm
 src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/eLut.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.cpp
 src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/eLut.cpp.o: src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/eLut.cpp.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/eLut.cpp.o -MF CMakeFiles/eLut.dir/eLut.cpp.o.d -o CMakeFiles/eLut.dir/eLut.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.cpp
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/eLut.cpp.o -MF CMakeFiles/eLut.dir/eLut.cpp.o.d -o CMakeFiles/eLut.dir/eLut.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.cpp
 
 src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/eLut.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eLut.dir/eLut.cpp.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.cpp > CMakeFiles/eLut.dir/eLut.cpp.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.cpp > CMakeFiles/eLut.dir/eLut.cpp.i
 
 src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/eLut.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eLut.dir/eLut.cpp.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.cpp -o CMakeFiles/eLut.dir/eLut.cpp.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.cpp -o CMakeFiles/eLut.dir/eLut.cpp.s
 
 # Object files for target eLut
 eLut_OBJECTS = \

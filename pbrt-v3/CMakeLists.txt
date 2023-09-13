@@ -405,6 +405,9 @@ SET ( PBRT_CORE_SOURCE
   src/core/stats.cpp
   src/core/texture.cpp
   src/core/transform.cpp
+  src/core/bfputility.cpp
+  src/core/bfpnum.cpp
+  src/core/bfpblock.cpp
   )
 
 SET ( PBRT_CORE_HEADERS
@@ -448,6 +451,9 @@ SET ( PBRT_CORE_HEADERS
   src/core/stringprint.h
   src/core/texture.h
   src/core/transform.h
+  src/core/bfputility.h
+  src/core/bfpnum.h
+  src/core/bfpblock.h
   )
 
 FILE ( GLOB PBRT_SOURCE
@@ -462,7 +468,7 @@ FILE ( GLOB PBRT_SOURCE
   src/shapes/*
   src/textures/*
   src/media/*
-  src/bfp/*
+  # src/bfp/*
   )
 
 INCLUDE_DIRECTORIES ( src )
@@ -481,7 +487,7 @@ SOURCE_GROUP (samplers REGULAR_EXPRESSION src/samplers/.*)
 SOURCE_GROUP (shapes REGULAR_EXPRESSION src/shapes/.*)
 SOURCE_GROUP (textures REGULAR_EXPRESSION src/textures/.*)
 SOURCE_GROUP (media REGULAR_EXPRESSION src/media/.*)
-SOURCE_GROUP (bfp REGULAR_EXPRESSION src/bfp/.*)
+# SOURCE_GROUP (bfp REGULAR_EXPRESSION src/bfp/.*)
 
 ###########################################################################
 # pbrt libraries and executables

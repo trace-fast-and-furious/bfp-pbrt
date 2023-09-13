@@ -435,12 +435,12 @@ CMakeFiles/pbrt.dir/clean:
 # All Build rule for target.
 CMakeFiles/pbrt_exe.dir/all: CMakeFiles/pbrt.dir/all
 CMakeFiles/pbrt_exe.dir/all: src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/all
+CMakeFiles/pbrt_exe.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 CMakeFiles/pbrt_exe.dir/all: src/ext/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/all
 CMakeFiles/pbrt_exe.dir/all: src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/all
 CMakeFiles/pbrt_exe.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmThread.dir/all
 CMakeFiles/pbrt_exe.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
 CMakeFiles/pbrt_exe.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
-CMakeFiles/pbrt_exe.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt_exe.dir/build.make CMakeFiles/pbrt_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt_exe.dir/build.make CMakeFiles/pbrt_exe.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num= "Built target pbrt_exe"
@@ -468,12 +468,12 @@ CMakeFiles/pbrt_exe.dir/clean:
 # All Build rule for target.
 CMakeFiles/bsdftest.dir/all: CMakeFiles/pbrt.dir/all
 CMakeFiles/bsdftest.dir/all: src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/all
+CMakeFiles/bsdftest.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 CMakeFiles/bsdftest.dir/all: src/ext/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/all
 CMakeFiles/bsdftest.dir/all: src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/all
 CMakeFiles/bsdftest.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmThread.dir/all
 CMakeFiles/bsdftest.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
 CMakeFiles/bsdftest.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
-CMakeFiles/bsdftest.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsdftest.dir/build.make CMakeFiles/bsdftest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsdftest.dir/build.make CMakeFiles/bsdftest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num= "Built target bsdftest"
@@ -501,12 +501,12 @@ CMakeFiles/bsdftest.dir/clean:
 # All Build rule for target.
 CMakeFiles/imgtool.dir/all: CMakeFiles/pbrt.dir/all
 CMakeFiles/imgtool.dir/all: src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/all
+CMakeFiles/imgtool.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 CMakeFiles/imgtool.dir/all: src/ext/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/all
 CMakeFiles/imgtool.dir/all: src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/all
 CMakeFiles/imgtool.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmThread.dir/all
 CMakeFiles/imgtool.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
 CMakeFiles/imgtool.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
-CMakeFiles/imgtool.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgtool.dir/build.make CMakeFiles/imgtool.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgtool.dir/build.make CMakeFiles/imgtool.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=49 "Built target imgtool"
@@ -586,12 +586,12 @@ CMakeFiles/cyhair2pbrt.dir/clean:
 # All Build rule for target.
 CMakeFiles/pbrt_test.dir/all: CMakeFiles/pbrt.dir/all
 CMakeFiles/pbrt_test.dir/all: src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/all
+CMakeFiles/pbrt_test.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 CMakeFiles/pbrt_test.dir/all: src/ext/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/all
 CMakeFiles/pbrt_test.dir/all: src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/all
 CMakeFiles/pbrt_test.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmThread.dir/all
 CMakeFiles/pbrt_test.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
 CMakeFiles/pbrt_test.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
-CMakeFiles/pbrt_test.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt_test.dir/build.make CMakeFiles/pbrt_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt_test.dir/build.make CMakeFiles/pbrt_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=88,89,90,91,92,93,94 "Built target pbrt_test"
