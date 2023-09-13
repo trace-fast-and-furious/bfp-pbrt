@@ -73,15 +73,15 @@ CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o: CMakeFiles/bsdftest.dir/flags.
 CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/bsdftest.cpp
 CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o: CMakeFiles/bsdftest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o -MF CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o.d -o CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/bsdftest.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o -MF CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o.d -o CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/bsdftest.cpp
 
 CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/bsdftest.cpp > CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/bsdftest.cpp > CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.i
 
 CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/bsdftest.cpp -o CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/bsdftest.cpp -o CMakeFiles/bsdftest.dir/src/tools/bsdftest.cpp.s
 
 # Object files for target bsdftest
 bsdftest_OBJECTS = \

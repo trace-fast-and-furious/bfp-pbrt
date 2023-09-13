@@ -2,6 +2,7 @@
 
 #include <stdint.h>
 
+#include "bfp/bfputility.h"
 
 namespace pbrt {
 template <class F, class I>

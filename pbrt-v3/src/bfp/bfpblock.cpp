@@ -8,6 +8,8 @@
 #include <string>
 #include <vector>
 
+#include "bfp/bfpnum.h"
+#include "bfp/bfputility.h"
 
 namespace pbrt {
 /* block formatting */

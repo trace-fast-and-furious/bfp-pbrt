@@ -73,15 +73,15 @@ CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.o: CMakeFiles/cyhair2pbrt.d
 CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/cyhair2pbrt.cpp
 CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.o: CMakeFiles/cyhair2pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.o -MF CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.o.d -o CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/cyhair2pbrt.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.o -MF CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.o.d -o CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/cyhair2pbrt.cpp
 
 CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/cyhair2pbrt.cpp > CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/cyhair2pbrt.cpp > CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.i
 
 CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/cyhair2pbrt.cpp -o CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/cyhair2pbrt.cpp -o CMakeFiles/cyhair2pbrt.dir/src/tools/cyhair2pbrt.cpp.s
 
 # Object files for target cyhair2pbrt
 cyhair2pbrt_OBJECTS = \

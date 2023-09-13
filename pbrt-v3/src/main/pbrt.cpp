@@ -37,9 +37,8 @@
 
 #include "api.h"
 #include "bfp/bfpblock.h"
-#include "bfp/bfpimpl.cpp"
 #include "bfp/bfpnum.h"
-// #include "../bfp/test.h"
+#include "bfp/bfputility.h"
 #include "parallel.h"
 #include "parser.h"
 
@@ -171,8 +170,8 @@ int main(int argc, char *argv[]) {
         for (const std::string &f : filenames) pbrtParseFile(f);
     }
 
-    //----------------------------------------------------------------
 
+    //----------------------------------------------------------------
     printf("\n\nhello\n");
     std::vector<float> a{-1, 1.5, 1.75, 1.00805664062, -1.00805699825};
     std::vector<float> b{-0.5, -1.5, 1.75, 0.00805664062, 1.00805699825};

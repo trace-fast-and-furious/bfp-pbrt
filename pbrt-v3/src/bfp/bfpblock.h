@@ -6,7 +6,7 @@
 #include <vector>
 
 #include "bfp/bfpnum.h"
-#include "bfp/bfputility.cpp"
+#include "bfp/bfputility.h"
 
 #define BFP_MANTISSA_LENGTH 23
 #define FIXED_POINT_LENGTH 24

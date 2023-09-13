@@ -73,15 +73,15 @@ src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/dwaLookups.cpp.o: src/e
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/dwaLookups.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.cpp
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/dwaLookups.cpp.o: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/dwaLookups.cpp.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/OpenEXR/IlmImf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/dwaLookups.cpp.o -MF CMakeFiles/dwaLookups.dir/dwaLookups.cpp.o.d -o CMakeFiles/dwaLookups.dir/dwaLookups.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.cpp
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/OpenEXR/IlmImf && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/dwaLookups.cpp.o -MF CMakeFiles/dwaLookups.dir/dwaLookups.cpp.o.d -o CMakeFiles/dwaLookups.dir/dwaLookups.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.cpp
 
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/dwaLookups.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dwaLookups.dir/dwaLookups.cpp.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/OpenEXR/IlmImf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.cpp > CMakeFiles/dwaLookups.dir/dwaLookups.cpp.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/OpenEXR/IlmImf && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.cpp > CMakeFiles/dwaLookups.dir/dwaLookups.cpp.i
 
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/dwaLookups.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dwaLookups.dir/dwaLookups.cpp.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/OpenEXR/IlmImf && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.cpp -o CMakeFiles/dwaLookups.dir/dwaLookups.cpp.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/OpenEXR/IlmImf && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.cpp -o CMakeFiles/dwaLookups.dir/dwaLookups.cpp.s
 
 # Object files for target dwaLookups
 dwaLookups_OBJECTS = \

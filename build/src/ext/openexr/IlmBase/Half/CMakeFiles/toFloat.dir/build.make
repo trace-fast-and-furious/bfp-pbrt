@@ -73,15 +73,15 @@ src/ext/openexr/IlmBase/Half/CMakeFiles/toFloat.dir/toFloat.cpp.o: src/ext/opene
 src/ext/openexr/IlmBase/Half/CMakeFiles/toFloat.dir/toFloat.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.cpp
 src/ext/openexr/IlmBase/Half/CMakeFiles/toFloat.dir/toFloat.cpp.o: src/ext/openexr/IlmBase/Half/CMakeFiles/toFloat.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/ext/openexr/IlmBase/Half/CMakeFiles/toFloat.dir/toFloat.cpp.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/openexr/IlmBase/Half/CMakeFiles/toFloat.dir/toFloat.cpp.o -MF CMakeFiles/toFloat.dir/toFloat.cpp.o.d -o CMakeFiles/toFloat.dir/toFloat.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.cpp
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/openexr/IlmBase/Half/CMakeFiles/toFloat.dir/toFloat.cpp.o -MF CMakeFiles/toFloat.dir/toFloat.cpp.o.d -o CMakeFiles/toFloat.dir/toFloat.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.cpp
 
 src/ext/openexr/IlmBase/Half/CMakeFiles/toFloat.dir/toFloat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/toFloat.dir/toFloat.cpp.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.cpp > CMakeFiles/toFloat.dir/toFloat.cpp.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.cpp > CMakeFiles/toFloat.dir/toFloat.cpp.i
 
 src/ext/openexr/IlmBase/Half/CMakeFiles/toFloat.dir/toFloat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/toFloat.dir/toFloat.cpp.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.cpp -o CMakeFiles/toFloat.dir/toFloat.cpp.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.cpp -o CMakeFiles/toFloat.dir/toFloat.cpp.s
 
 # Object files for target toFloat
 toFloat_OBJECTS = \

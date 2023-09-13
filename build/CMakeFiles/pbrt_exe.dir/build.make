@@ -73,15 +73,15 @@ CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.o: CMakeFiles/pbrt_exe.dir/flags.make
 CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/main/pbrt.cpp
 CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.o: CMakeFiles/pbrt_exe.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.o -MF CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.o.d -o CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/main/pbrt.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.o -MF CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.o.d -o CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/main/pbrt.cpp
 
 CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/main/pbrt.cpp > CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/main/pbrt.cpp > CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.i
 
 CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/main/pbrt.cpp -o CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/main/pbrt.cpp -o CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.s
 
 # Object files for target pbrt_exe
 pbrt_exe_OBJECTS = \

@@ -7,7 +7,7 @@
 #include <string>
 #include <vector>
 
-#include "bfp/bfputility.cpp"
+#include "bfp/bfputility.h"
 
 namespace pbrt {
 template <class F, class I>  //<float, uint32_t> or <double, uint64_t>

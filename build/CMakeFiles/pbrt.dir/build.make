@@ -73,1667 +73,1639 @@ CMakeFiles/pbrt.dir/src/core/api.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/api.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/api.cpp
 CMakeFiles/pbrt.dir/src/core/api.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pbrt.dir/src/core/api.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/api.cpp.o -MF CMakeFiles/pbrt.dir/src/core/api.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/api.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/api.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/api.cpp.o -MF CMakeFiles/pbrt.dir/src/core/api.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/api.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/api.cpp
 
 CMakeFiles/pbrt.dir/src/core/api.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/api.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/api.cpp > CMakeFiles/pbrt.dir/src/core/api.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/api.cpp > CMakeFiles/pbrt.dir/src/core/api.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/api.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/api.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/api.cpp -o CMakeFiles/pbrt.dir/src/core/api.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/api.cpp -o CMakeFiles/pbrt.dir/src/core/api.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/bssrdf.cpp
 CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.o -MF CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/bssrdf.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.o -MF CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/bssrdf.cpp
 
 CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/bssrdf.cpp > CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/bssrdf.cpp > CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/bssrdf.cpp -o CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/bssrdf.cpp -o CMakeFiles/pbrt.dir/src/core/bssrdf.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/camera.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/camera.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/camera.cpp
 CMakeFiles/pbrt.dir/src/core/camera.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pbrt.dir/src/core/camera.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/camera.cpp.o -MF CMakeFiles/pbrt.dir/src/core/camera.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/camera.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/camera.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/camera.cpp.o -MF CMakeFiles/pbrt.dir/src/core/camera.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/camera.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/camera.cpp
 
 CMakeFiles/pbrt.dir/src/core/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/camera.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/camera.cpp > CMakeFiles/pbrt.dir/src/core/camera.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/camera.cpp > CMakeFiles/pbrt.dir/src/core/camera.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/camera.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/camera.cpp -o CMakeFiles/pbrt.dir/src/core/camera.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/camera.cpp -o CMakeFiles/pbrt.dir/src/core/camera.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/efloat.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/efloat.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/efloat.cpp
 CMakeFiles/pbrt.dir/src/core/efloat.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pbrt.dir/src/core/efloat.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/efloat.cpp.o -MF CMakeFiles/pbrt.dir/src/core/efloat.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/efloat.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/efloat.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/efloat.cpp.o -MF CMakeFiles/pbrt.dir/src/core/efloat.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/efloat.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/efloat.cpp
 
 CMakeFiles/pbrt.dir/src/core/efloat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/efloat.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/efloat.cpp > CMakeFiles/pbrt.dir/src/core/efloat.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/efloat.cpp > CMakeFiles/pbrt.dir/src/core/efloat.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/efloat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/efloat.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/efloat.cpp -o CMakeFiles/pbrt.dir/src/core/efloat.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/efloat.cpp -o CMakeFiles/pbrt.dir/src/core/efloat.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/error.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/error.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/error.cpp
 CMakeFiles/pbrt.dir/src/core/error.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pbrt.dir/src/core/error.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/error.cpp.o -MF CMakeFiles/pbrt.dir/src/core/error.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/error.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/error.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/error.cpp.o -MF CMakeFiles/pbrt.dir/src/core/error.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/error.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/error.cpp
 
 CMakeFiles/pbrt.dir/src/core/error.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/error.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/error.cpp > CMakeFiles/pbrt.dir/src/core/error.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/error.cpp > CMakeFiles/pbrt.dir/src/core/error.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/error.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/error.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/error.cpp -o CMakeFiles/pbrt.dir/src/core/error.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/error.cpp -o CMakeFiles/pbrt.dir/src/core/error.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/fileutil.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/fileutil.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/fileutil.cpp
 CMakeFiles/pbrt.dir/src/core/fileutil.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pbrt.dir/src/core/fileutil.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/fileutil.cpp.o -MF CMakeFiles/pbrt.dir/src/core/fileutil.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/fileutil.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/fileutil.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/fileutil.cpp.o -MF CMakeFiles/pbrt.dir/src/core/fileutil.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/fileutil.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/fileutil.cpp
 
 CMakeFiles/pbrt.dir/src/core/fileutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/fileutil.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/fileutil.cpp > CMakeFiles/pbrt.dir/src/core/fileutil.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/fileutil.cpp > CMakeFiles/pbrt.dir/src/core/fileutil.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/fileutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/fileutil.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/fileutil.cpp -o CMakeFiles/pbrt.dir/src/core/fileutil.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/fileutil.cpp -o CMakeFiles/pbrt.dir/src/core/fileutil.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/film.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/film.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/film.cpp
 CMakeFiles/pbrt.dir/src/core/film.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pbrt.dir/src/core/film.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/film.cpp.o -MF CMakeFiles/pbrt.dir/src/core/film.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/film.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/film.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/film.cpp.o -MF CMakeFiles/pbrt.dir/src/core/film.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/film.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/film.cpp
 
 CMakeFiles/pbrt.dir/src/core/film.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/film.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/film.cpp > CMakeFiles/pbrt.dir/src/core/film.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/film.cpp > CMakeFiles/pbrt.dir/src/core/film.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/film.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/film.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/film.cpp -o CMakeFiles/pbrt.dir/src/core/film.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/film.cpp -o CMakeFiles/pbrt.dir/src/core/film.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/filter.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/filter.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/filter.cpp
 CMakeFiles/pbrt.dir/src/core/filter.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pbrt.dir/src/core/filter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/filter.cpp.o -MF CMakeFiles/pbrt.dir/src/core/filter.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/filter.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/filter.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/filter.cpp.o -MF CMakeFiles/pbrt.dir/src/core/filter.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/filter.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/filter.cpp
 
 CMakeFiles/pbrt.dir/src/core/filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/filter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/filter.cpp > CMakeFiles/pbrt.dir/src/core/filter.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/filter.cpp > CMakeFiles/pbrt.dir/src/core/filter.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/filter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/filter.cpp -o CMakeFiles/pbrt.dir/src/core/filter.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/filter.cpp -o CMakeFiles/pbrt.dir/src/core/filter.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/floatfile.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/floatfile.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/floatfile.cpp
 CMakeFiles/pbrt.dir/src/core/floatfile.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pbrt.dir/src/core/floatfile.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/floatfile.cpp.o -MF CMakeFiles/pbrt.dir/src/core/floatfile.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/floatfile.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/floatfile.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/floatfile.cpp.o -MF CMakeFiles/pbrt.dir/src/core/floatfile.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/floatfile.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/floatfile.cpp
 
 CMakeFiles/pbrt.dir/src/core/floatfile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/floatfile.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/floatfile.cpp > CMakeFiles/pbrt.dir/src/core/floatfile.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/floatfile.cpp > CMakeFiles/pbrt.dir/src/core/floatfile.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/floatfile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/floatfile.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/floatfile.cpp -o CMakeFiles/pbrt.dir/src/core/floatfile.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/floatfile.cpp -o CMakeFiles/pbrt.dir/src/core/floatfile.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/geometry.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/geometry.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/geometry.cpp
 CMakeFiles/pbrt.dir/src/core/geometry.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pbrt.dir/src/core/geometry.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/geometry.cpp.o -MF CMakeFiles/pbrt.dir/src/core/geometry.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/geometry.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/geometry.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/geometry.cpp.o -MF CMakeFiles/pbrt.dir/src/core/geometry.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/geometry.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/geometry.cpp
 
 CMakeFiles/pbrt.dir/src/core/geometry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/geometry.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/geometry.cpp > CMakeFiles/pbrt.dir/src/core/geometry.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/geometry.cpp > CMakeFiles/pbrt.dir/src/core/geometry.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/geometry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/geometry.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/geometry.cpp -o CMakeFiles/pbrt.dir/src/core/geometry.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/geometry.cpp -o CMakeFiles/pbrt.dir/src/core/geometry.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/imageio.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/imageio.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/imageio.cpp
 CMakeFiles/pbrt.dir/src/core/imageio.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pbrt.dir/src/core/imageio.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/imageio.cpp.o -MF CMakeFiles/pbrt.dir/src/core/imageio.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/imageio.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/imageio.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/imageio.cpp.o -MF CMakeFiles/pbrt.dir/src/core/imageio.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/imageio.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/imageio.cpp
 
 CMakeFiles/pbrt.dir/src/core/imageio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/imageio.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/imageio.cpp > CMakeFiles/pbrt.dir/src/core/imageio.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/imageio.cpp > CMakeFiles/pbrt.dir/src/core/imageio.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/imageio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/imageio.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/imageio.cpp -o CMakeFiles/pbrt.dir/src/core/imageio.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/imageio.cpp -o CMakeFiles/pbrt.dir/src/core/imageio.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/integrator.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/integrator.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/integrator.cpp
 CMakeFiles/pbrt.dir/src/core/integrator.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pbrt.dir/src/core/integrator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/integrator.cpp.o -MF CMakeFiles/pbrt.dir/src/core/integrator.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/integrator.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/integrator.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/integrator.cpp.o -MF CMakeFiles/pbrt.dir/src/core/integrator.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/integrator.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/integrator.cpp
 
 CMakeFiles/pbrt.dir/src/core/integrator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/integrator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/integrator.cpp > CMakeFiles/pbrt.dir/src/core/integrator.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/integrator.cpp > CMakeFiles/pbrt.dir/src/core/integrator.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/integrator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/integrator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/integrator.cpp -o CMakeFiles/pbrt.dir/src/core/integrator.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/integrator.cpp -o CMakeFiles/pbrt.dir/src/core/integrator.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/interaction.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/interaction.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interaction.cpp
 CMakeFiles/pbrt.dir/src/core/interaction.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pbrt.dir/src/core/interaction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/interaction.cpp.o -MF CMakeFiles/pbrt.dir/src/core/interaction.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/interaction.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interaction.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/interaction.cpp.o -MF CMakeFiles/pbrt.dir/src/core/interaction.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/interaction.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interaction.cpp
 
 CMakeFiles/pbrt.dir/src/core/interaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/interaction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interaction.cpp > CMakeFiles/pbrt.dir/src/core/interaction.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interaction.cpp > CMakeFiles/pbrt.dir/src/core/interaction.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/interaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/interaction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interaction.cpp -o CMakeFiles/pbrt.dir/src/core/interaction.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interaction.cpp -o CMakeFiles/pbrt.dir/src/core/interaction.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/interpolation.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/interpolation.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interpolation.cpp
 CMakeFiles/pbrt.dir/src/core/interpolation.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pbrt.dir/src/core/interpolation.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/interpolation.cpp.o -MF CMakeFiles/pbrt.dir/src/core/interpolation.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/interpolation.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interpolation.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/interpolation.cpp.o -MF CMakeFiles/pbrt.dir/src/core/interpolation.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/interpolation.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interpolation.cpp
 
 CMakeFiles/pbrt.dir/src/core/interpolation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/interpolation.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interpolation.cpp > CMakeFiles/pbrt.dir/src/core/interpolation.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interpolation.cpp > CMakeFiles/pbrt.dir/src/core/interpolation.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/interpolation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/interpolation.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interpolation.cpp -o CMakeFiles/pbrt.dir/src/core/interpolation.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/interpolation.cpp -o CMakeFiles/pbrt.dir/src/core/interpolation.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/light.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/light.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/light.cpp
 CMakeFiles/pbrt.dir/src/core/light.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pbrt.dir/src/core/light.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/light.cpp.o -MF CMakeFiles/pbrt.dir/src/core/light.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/light.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/light.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/light.cpp.o -MF CMakeFiles/pbrt.dir/src/core/light.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/light.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/light.cpp
 
 CMakeFiles/pbrt.dir/src/core/light.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/light.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/light.cpp > CMakeFiles/pbrt.dir/src/core/light.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/light.cpp > CMakeFiles/pbrt.dir/src/core/light.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/light.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/light.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/light.cpp -o CMakeFiles/pbrt.dir/src/core/light.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/light.cpp -o CMakeFiles/pbrt.dir/src/core/light.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lightdistrib.cpp
 CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.o -MF CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lightdistrib.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.o -MF CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lightdistrib.cpp
 
 CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lightdistrib.cpp > CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lightdistrib.cpp > CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lightdistrib.cpp -o CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lightdistrib.cpp -o CMakeFiles/pbrt.dir/src/core/lightdistrib.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lowdiscrepancy.cpp
 CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.o -MF CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lowdiscrepancy.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.o -MF CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lowdiscrepancy.cpp
 
 CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lowdiscrepancy.cpp > CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lowdiscrepancy.cpp > CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lowdiscrepancy.cpp -o CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/lowdiscrepancy.cpp -o CMakeFiles/pbrt.dir/src/core/lowdiscrepancy.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/material.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/material.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/material.cpp
 CMakeFiles/pbrt.dir/src/core/material.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/pbrt.dir/src/core/material.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/material.cpp.o -MF CMakeFiles/pbrt.dir/src/core/material.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/material.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/material.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/material.cpp.o -MF CMakeFiles/pbrt.dir/src/core/material.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/material.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/material.cpp
 
 CMakeFiles/pbrt.dir/src/core/material.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/material.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/material.cpp > CMakeFiles/pbrt.dir/src/core/material.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/material.cpp > CMakeFiles/pbrt.dir/src/core/material.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/material.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/material.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/material.cpp -o CMakeFiles/pbrt.dir/src/core/material.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/material.cpp -o CMakeFiles/pbrt.dir/src/core/material.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/medium.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/medium.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/medium.cpp
 CMakeFiles/pbrt.dir/src/core/medium.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/pbrt.dir/src/core/medium.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/medium.cpp.o -MF CMakeFiles/pbrt.dir/src/core/medium.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/medium.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/medium.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/medium.cpp.o -MF CMakeFiles/pbrt.dir/src/core/medium.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/medium.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/medium.cpp
 
 CMakeFiles/pbrt.dir/src/core/medium.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/medium.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/medium.cpp > CMakeFiles/pbrt.dir/src/core/medium.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/medium.cpp > CMakeFiles/pbrt.dir/src/core/medium.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/medium.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/medium.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/medium.cpp -o CMakeFiles/pbrt.dir/src/core/medium.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/medium.cpp -o CMakeFiles/pbrt.dir/src/core/medium.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/memory.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/memory.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/memory.cpp
 CMakeFiles/pbrt.dir/src/core/memory.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/pbrt.dir/src/core/memory.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/memory.cpp.o -MF CMakeFiles/pbrt.dir/src/core/memory.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/memory.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/memory.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/memory.cpp.o -MF CMakeFiles/pbrt.dir/src/core/memory.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/memory.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/memory.cpp
 
 CMakeFiles/pbrt.dir/src/core/memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/memory.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/memory.cpp > CMakeFiles/pbrt.dir/src/core/memory.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/memory.cpp > CMakeFiles/pbrt.dir/src/core/memory.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/memory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/memory.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/memory.cpp -o CMakeFiles/pbrt.dir/src/core/memory.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/memory.cpp -o CMakeFiles/pbrt.dir/src/core/memory.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/microfacet.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/microfacet.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/microfacet.cpp
 CMakeFiles/pbrt.dir/src/core/microfacet.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/pbrt.dir/src/core/microfacet.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/microfacet.cpp.o -MF CMakeFiles/pbrt.dir/src/core/microfacet.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/microfacet.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/microfacet.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/microfacet.cpp.o -MF CMakeFiles/pbrt.dir/src/core/microfacet.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/microfacet.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/microfacet.cpp
 
 CMakeFiles/pbrt.dir/src/core/microfacet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/microfacet.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/microfacet.cpp > CMakeFiles/pbrt.dir/src/core/microfacet.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/microfacet.cpp > CMakeFiles/pbrt.dir/src/core/microfacet.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/microfacet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/microfacet.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/microfacet.cpp -o CMakeFiles/pbrt.dir/src/core/microfacet.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/microfacet.cpp -o CMakeFiles/pbrt.dir/src/core/microfacet.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/parallel.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/parallel.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parallel.cpp
 CMakeFiles/pbrt.dir/src/core/parallel.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/pbrt.dir/src/core/parallel.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/parallel.cpp.o -MF CMakeFiles/pbrt.dir/src/core/parallel.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/parallel.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parallel.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/parallel.cpp.o -MF CMakeFiles/pbrt.dir/src/core/parallel.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/parallel.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parallel.cpp
 
 CMakeFiles/pbrt.dir/src/core/parallel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/parallel.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parallel.cpp > CMakeFiles/pbrt.dir/src/core/parallel.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parallel.cpp > CMakeFiles/pbrt.dir/src/core/parallel.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/parallel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/parallel.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parallel.cpp -o CMakeFiles/pbrt.dir/src/core/parallel.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parallel.cpp -o CMakeFiles/pbrt.dir/src/core/parallel.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/paramset.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/paramset.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/paramset.cpp
 CMakeFiles/pbrt.dir/src/core/paramset.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/pbrt.dir/src/core/paramset.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/paramset.cpp.o -MF CMakeFiles/pbrt.dir/src/core/paramset.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/paramset.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/paramset.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/paramset.cpp.o -MF CMakeFiles/pbrt.dir/src/core/paramset.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/paramset.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/paramset.cpp
 
 CMakeFiles/pbrt.dir/src/core/paramset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/paramset.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/paramset.cpp > CMakeFiles/pbrt.dir/src/core/paramset.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/paramset.cpp > CMakeFiles/pbrt.dir/src/core/paramset.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/paramset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/paramset.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/paramset.cpp -o CMakeFiles/pbrt.dir/src/core/paramset.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/paramset.cpp -o CMakeFiles/pbrt.dir/src/core/paramset.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/parser.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/parser.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parser.cpp
 CMakeFiles/pbrt.dir/src/core/parser.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/pbrt.dir/src/core/parser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/parser.cpp.o -MF CMakeFiles/pbrt.dir/src/core/parser.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/parser.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parser.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/parser.cpp.o -MF CMakeFiles/pbrt.dir/src/core/parser.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/parser.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parser.cpp
 
 CMakeFiles/pbrt.dir/src/core/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/parser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parser.cpp > CMakeFiles/pbrt.dir/src/core/parser.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parser.cpp > CMakeFiles/pbrt.dir/src/core/parser.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/parser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parser.cpp -o CMakeFiles/pbrt.dir/src/core/parser.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/parser.cpp -o CMakeFiles/pbrt.dir/src/core/parser.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/primitive.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/primitive.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/primitive.cpp
 CMakeFiles/pbrt.dir/src/core/primitive.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/pbrt.dir/src/core/primitive.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/primitive.cpp.o -MF CMakeFiles/pbrt.dir/src/core/primitive.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/primitive.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/primitive.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/primitive.cpp.o -MF CMakeFiles/pbrt.dir/src/core/primitive.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/primitive.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/primitive.cpp
 
 CMakeFiles/pbrt.dir/src/core/primitive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/primitive.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/primitive.cpp > CMakeFiles/pbrt.dir/src/core/primitive.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/primitive.cpp > CMakeFiles/pbrt.dir/src/core/primitive.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/primitive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/primitive.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/primitive.cpp -o CMakeFiles/pbrt.dir/src/core/primitive.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/primitive.cpp -o CMakeFiles/pbrt.dir/src/core/primitive.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/progressreporter.cpp
 CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.o -MF CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/progressreporter.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.o -MF CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/progressreporter.cpp
 
 CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/progressreporter.cpp > CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/progressreporter.cpp > CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/progressreporter.cpp -o CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/progressreporter.cpp -o CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/quaternion.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/quaternion.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/quaternion.cpp
 CMakeFiles/pbrt.dir/src/core/quaternion.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/pbrt.dir/src/core/quaternion.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/quaternion.cpp.o -MF CMakeFiles/pbrt.dir/src/core/quaternion.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/quaternion.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/quaternion.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/quaternion.cpp.o -MF CMakeFiles/pbrt.dir/src/core/quaternion.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/quaternion.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/quaternion.cpp
 
 CMakeFiles/pbrt.dir/src/core/quaternion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/quaternion.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/quaternion.cpp > CMakeFiles/pbrt.dir/src/core/quaternion.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/quaternion.cpp > CMakeFiles/pbrt.dir/src/core/quaternion.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/quaternion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/quaternion.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/quaternion.cpp -o CMakeFiles/pbrt.dir/src/core/quaternion.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/quaternion.cpp -o CMakeFiles/pbrt.dir/src/core/quaternion.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/reflection.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/reflection.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/reflection.cpp
 CMakeFiles/pbrt.dir/src/core/reflection.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/pbrt.dir/src/core/reflection.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/reflection.cpp.o -MF CMakeFiles/pbrt.dir/src/core/reflection.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/reflection.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/reflection.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/reflection.cpp.o -MF CMakeFiles/pbrt.dir/src/core/reflection.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/reflection.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/reflection.cpp
 
 CMakeFiles/pbrt.dir/src/core/reflection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/reflection.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/reflection.cpp > CMakeFiles/pbrt.dir/src/core/reflection.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/reflection.cpp > CMakeFiles/pbrt.dir/src/core/reflection.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/reflection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/reflection.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/reflection.cpp -o CMakeFiles/pbrt.dir/src/core/reflection.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/reflection.cpp -o CMakeFiles/pbrt.dir/src/core/reflection.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/sampler.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/sampler.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampler.cpp
 CMakeFiles/pbrt.dir/src/core/sampler.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/pbrt.dir/src/core/sampler.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/sampler.cpp.o -MF CMakeFiles/pbrt.dir/src/core/sampler.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/sampler.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampler.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/sampler.cpp.o -MF CMakeFiles/pbrt.dir/src/core/sampler.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/sampler.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampler.cpp
 
 CMakeFiles/pbrt.dir/src/core/sampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/sampler.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampler.cpp > CMakeFiles/pbrt.dir/src/core/sampler.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampler.cpp > CMakeFiles/pbrt.dir/src/core/sampler.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/sampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/sampler.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampler.cpp -o CMakeFiles/pbrt.dir/src/core/sampler.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampler.cpp -o CMakeFiles/pbrt.dir/src/core/sampler.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/sampling.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/sampling.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampling.cpp
 CMakeFiles/pbrt.dir/src/core/sampling.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/pbrt.dir/src/core/sampling.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/sampling.cpp.o -MF CMakeFiles/pbrt.dir/src/core/sampling.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/sampling.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampling.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/sampling.cpp.o -MF CMakeFiles/pbrt.dir/src/core/sampling.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/sampling.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampling.cpp
 
 CMakeFiles/pbrt.dir/src/core/sampling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/sampling.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampling.cpp > CMakeFiles/pbrt.dir/src/core/sampling.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampling.cpp > CMakeFiles/pbrt.dir/src/core/sampling.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/sampling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/sampling.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampling.cpp -o CMakeFiles/pbrt.dir/src/core/sampling.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sampling.cpp -o CMakeFiles/pbrt.dir/src/core/sampling.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/scene.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/scene.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/scene.cpp
 CMakeFiles/pbrt.dir/src/core/scene.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/pbrt.dir/src/core/scene.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/scene.cpp.o -MF CMakeFiles/pbrt.dir/src/core/scene.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/scene.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/scene.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/scene.cpp.o -MF CMakeFiles/pbrt.dir/src/core/scene.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/scene.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/scene.cpp
 
 CMakeFiles/pbrt.dir/src/core/scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/scene.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/scene.cpp > CMakeFiles/pbrt.dir/src/core/scene.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/scene.cpp > CMakeFiles/pbrt.dir/src/core/scene.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/scene.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/scene.cpp -o CMakeFiles/pbrt.dir/src/core/scene.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/scene.cpp -o CMakeFiles/pbrt.dir/src/core/scene.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/shape.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/shape.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/shape.cpp
 CMakeFiles/pbrt.dir/src/core/shape.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/pbrt.dir/src/core/shape.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/shape.cpp.o -MF CMakeFiles/pbrt.dir/src/core/shape.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/shape.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/shape.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/shape.cpp.o -MF CMakeFiles/pbrt.dir/src/core/shape.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/shape.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/shape.cpp
 
 CMakeFiles/pbrt.dir/src/core/shape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/shape.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/shape.cpp > CMakeFiles/pbrt.dir/src/core/shape.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/shape.cpp > CMakeFiles/pbrt.dir/src/core/shape.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/shape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/shape.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/shape.cpp -o CMakeFiles/pbrt.dir/src/core/shape.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/shape.cpp -o CMakeFiles/pbrt.dir/src/core/shape.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sobolmatrices.cpp
 CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.o -MF CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sobolmatrices.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.o -MF CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sobolmatrices.cpp
 
 CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sobolmatrices.cpp > CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sobolmatrices.cpp > CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sobolmatrices.cpp -o CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/sobolmatrices.cpp -o CMakeFiles/pbrt.dir/src/core/sobolmatrices.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/spectrum.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/spectrum.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/spectrum.cpp
 CMakeFiles/pbrt.dir/src/core/spectrum.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/pbrt.dir/src/core/spectrum.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/spectrum.cpp.o -MF CMakeFiles/pbrt.dir/src/core/spectrum.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/spectrum.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/spectrum.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/spectrum.cpp.o -MF CMakeFiles/pbrt.dir/src/core/spectrum.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/spectrum.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/spectrum.cpp
 
 CMakeFiles/pbrt.dir/src/core/spectrum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/spectrum.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/spectrum.cpp > CMakeFiles/pbrt.dir/src/core/spectrum.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/spectrum.cpp > CMakeFiles/pbrt.dir/src/core/spectrum.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/spectrum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/spectrum.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/spectrum.cpp -o CMakeFiles/pbrt.dir/src/core/spectrum.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/spectrum.cpp -o CMakeFiles/pbrt.dir/src/core/spectrum.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/stats.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/stats.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/stats.cpp
 CMakeFiles/pbrt.dir/src/core/stats.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/pbrt.dir/src/core/stats.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/stats.cpp.o -MF CMakeFiles/pbrt.dir/src/core/stats.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/stats.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/stats.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/stats.cpp.o -MF CMakeFiles/pbrt.dir/src/core/stats.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/stats.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/stats.cpp
 
 CMakeFiles/pbrt.dir/src/core/stats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/stats.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/stats.cpp > CMakeFiles/pbrt.dir/src/core/stats.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/stats.cpp > CMakeFiles/pbrt.dir/src/core/stats.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/stats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/stats.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/stats.cpp -o CMakeFiles/pbrt.dir/src/core/stats.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/stats.cpp -o CMakeFiles/pbrt.dir/src/core/stats.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/texture.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/texture.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/texture.cpp
 CMakeFiles/pbrt.dir/src/core/texture.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/pbrt.dir/src/core/texture.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/texture.cpp.o -MF CMakeFiles/pbrt.dir/src/core/texture.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/texture.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/texture.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/texture.cpp.o -MF CMakeFiles/pbrt.dir/src/core/texture.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/texture.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/texture.cpp
 
 CMakeFiles/pbrt.dir/src/core/texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/texture.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/texture.cpp > CMakeFiles/pbrt.dir/src/core/texture.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/texture.cpp > CMakeFiles/pbrt.dir/src/core/texture.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/texture.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/texture.cpp -o CMakeFiles/pbrt.dir/src/core/texture.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/texture.cpp -o CMakeFiles/pbrt.dir/src/core/texture.cpp.s
 
 CMakeFiles/pbrt.dir/src/core/transform.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/core/transform.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/transform.cpp
 CMakeFiles/pbrt.dir/src/core/transform.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/pbrt.dir/src/core/transform.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/transform.cpp.o -MF CMakeFiles/pbrt.dir/src/core/transform.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/transform.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/transform.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/core/transform.cpp.o -MF CMakeFiles/pbrt.dir/src/core/transform.cpp.o.d -o CMakeFiles/pbrt.dir/src/core/transform.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/transform.cpp
 
 CMakeFiles/pbrt.dir/src/core/transform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/core/transform.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/transform.cpp > CMakeFiles/pbrt.dir/src/core/transform.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/transform.cpp > CMakeFiles/pbrt.dir/src/core/transform.cpp.i
 
 CMakeFiles/pbrt.dir/src/core/transform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/core/transform.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/transform.cpp -o CMakeFiles/pbrt.dir/src/core/transform.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/core/transform.cpp -o CMakeFiles/pbrt.dir/src/core/transform.cpp.s
 
 CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/bvh.cpp
 CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o -MF CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o.d -o CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/bvh.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o -MF CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o.d -o CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/bvh.cpp
 
 CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/bvh.cpp > CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/bvh.cpp > CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.i
 
 CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/bvh.cpp -o CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/bvh.cpp -o CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.s
 
 CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/kdtreeaccel.cpp
 CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o -MF CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o.d -o CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/kdtreeaccel.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o -MF CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o.d -o CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/kdtreeaccel.cpp
 
 CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/kdtreeaccel.cpp > CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/kdtreeaccel.cpp > CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.i
 
 CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/kdtreeaccel.cpp -o CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/accelerators/kdtreeaccel.cpp -o CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.s
 
 CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpblock.cpp
 CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o -MF CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o.d -o CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpblock.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o -MF CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o.d -o CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpblock.cpp
 
 CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpblock.cpp > CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpblock.cpp > CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.i
 
 CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpblock.cpp -o CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.s
-
-CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.o: CMakeFiles/pbrt.dir/flags.make
-CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpimpl.cpp
-CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.o -MF CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.o.d -o CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpimpl.cpp
-
-CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpimpl.cpp > CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.i
-
-CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpimpl.cpp -o CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpblock.cpp -o CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.s
 
 CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpnum.cpp
 CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o -MF CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o.d -o CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpnum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o -MF CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o.d -o CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpnum.cpp
 
 CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpnum.cpp > CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpnum.cpp > CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.i
 
 CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpnum.cpp -o CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.s
-
-CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.o: CMakeFiles/pbrt.dir/flags.make
-CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfptest.cpp
-CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.o -MF CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.o.d -o CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfptest.cpp
-
-CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfptest.cpp > CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.i
-
-CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfptest.cpp -o CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfpnum.cpp -o CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.s
 
 CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfputility.cpp
 CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o -MF CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o.d -o CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfputility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o -MF CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o.d -o CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfputility.cpp
 
 CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfputility.cpp > CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfputility.cpp > CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.i
 
 CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfputility.cpp -o CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/bfp/bfputility.cpp -o CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.s
 
 CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/environment.cpp
 CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o -MF CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o.d -o CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/environment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o -MF CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o.d -o CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/environment.cpp
 
 CMakeFiles/pbrt.dir/src/cameras/environment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/cameras/environment.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/environment.cpp > CMakeFiles/pbrt.dir/src/cameras/environment.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/environment.cpp > CMakeFiles/pbrt.dir/src/cameras/environment.cpp.i
 
 CMakeFiles/pbrt.dir/src/cameras/environment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/cameras/environment.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/environment.cpp -o CMakeFiles/pbrt.dir/src/cameras/environment.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/environment.cpp -o CMakeFiles/pbrt.dir/src/cameras/environment.cpp.s
 
 CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/orthographic.cpp
 CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o -MF CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o.d -o CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/orthographic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o -MF CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o.d -o CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/orthographic.cpp
 
 CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/orthographic.cpp > CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/orthographic.cpp > CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.i
 
 CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/orthographic.cpp -o CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/orthographic.cpp -o CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.s
 
 CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/perspective.cpp
 CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o -MF CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o.d -o CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/perspective.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o -MF CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o.d -o CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/perspective.cpp
 
 CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/perspective.cpp > CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/perspective.cpp > CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.i
 
 CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/perspective.cpp -o CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/perspective.cpp -o CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.s
 
 CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/realistic.cpp
 CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.o -MF CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.o.d -o CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/realistic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.o -MF CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.o.d -o CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/realistic.cpp
 
 CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/realistic.cpp > CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/realistic.cpp > CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.i
 
 CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/realistic.cpp -o CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/cameras/realistic.cpp -o CMakeFiles/pbrt.dir/src/cameras/realistic.cpp.s
 
 CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ArHosekSkyModel.c
 CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.o -MF CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.o.d -o CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ArHosekSkyModel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.o -MF CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.o.d -o CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ArHosekSkyModel.c
 
 CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ArHosekSkyModel.c > CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ArHosekSkyModel.c > CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.i
 
 CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ArHosekSkyModel.c -o CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/ArHosekSkyModel.c -o CMakeFiles/pbrt.dir/src/ext/ArHosekSkyModel.c.s
 
 CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/lodepng.cpp
 CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.o -MF CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.o.d -o CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/lodepng.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.o -MF CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.o.d -o CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/lodepng.cpp
 
 CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/lodepng.cpp > CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/lodepng.cpp > CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.i
 
 CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/lodepng.cpp -o CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/lodepng.cpp -o CMakeFiles/pbrt.dir/src/ext/lodepng.cpp.s
 
 CMakeFiles/pbrt.dir/src/ext/rply.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/ext/rply.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/rply.cpp
 CMakeFiles/pbrt.dir/src/ext/rply.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/pbrt.dir/src/ext/rply.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/ext/rply.cpp.o -MF CMakeFiles/pbrt.dir/src/ext/rply.cpp.o.d -o CMakeFiles/pbrt.dir/src/ext/rply.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/rply.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/pbrt.dir/src/ext/rply.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/ext/rply.cpp.o -MF CMakeFiles/pbrt.dir/src/ext/rply.cpp.o.d -o CMakeFiles/pbrt.dir/src/ext/rply.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/rply.cpp
 
 CMakeFiles/pbrt.dir/src/ext/rply.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/ext/rply.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/rply.cpp > CMakeFiles/pbrt.dir/src/ext/rply.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/rply.cpp > CMakeFiles/pbrt.dir/src/ext/rply.cpp.i
 
 CMakeFiles/pbrt.dir/src/ext/rply.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/ext/rply.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/rply.cpp -o CMakeFiles/pbrt.dir/src/ext/rply.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/rply.cpp -o CMakeFiles/pbrt.dir/src/ext/rply.cpp.s
 
 CMakeFiles/pbrt.dir/src/ext/targa.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/ext/targa.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/targa.cpp
 CMakeFiles/pbrt.dir/src/ext/targa.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/pbrt.dir/src/ext/targa.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/ext/targa.cpp.o -MF CMakeFiles/pbrt.dir/src/ext/targa.cpp.o.d -o CMakeFiles/pbrt.dir/src/ext/targa.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/targa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/pbrt.dir/src/ext/targa.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/ext/targa.cpp.o -MF CMakeFiles/pbrt.dir/src/ext/targa.cpp.o.d -o CMakeFiles/pbrt.dir/src/ext/targa.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/targa.cpp
 
 CMakeFiles/pbrt.dir/src/ext/targa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/ext/targa.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/targa.cpp > CMakeFiles/pbrt.dir/src/ext/targa.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/targa.cpp > CMakeFiles/pbrt.dir/src/ext/targa.cpp.i
 
 CMakeFiles/pbrt.dir/src/ext/targa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/ext/targa.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/targa.cpp -o CMakeFiles/pbrt.dir/src/ext/targa.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/targa.cpp -o CMakeFiles/pbrt.dir/src/ext/targa.cpp.s
 
 CMakeFiles/pbrt.dir/src/filters/box.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/filters/box.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/box.cpp
 CMakeFiles/pbrt.dir/src/filters/box.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/pbrt.dir/src/filters/box.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/filters/box.cpp.o -MF CMakeFiles/pbrt.dir/src/filters/box.cpp.o.d -o CMakeFiles/pbrt.dir/src/filters/box.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/box.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/pbrt.dir/src/filters/box.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/filters/box.cpp.o -MF CMakeFiles/pbrt.dir/src/filters/box.cpp.o.d -o CMakeFiles/pbrt.dir/src/filters/box.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/box.cpp
 
 CMakeFiles/pbrt.dir/src/filters/box.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/filters/box.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/box.cpp > CMakeFiles/pbrt.dir/src/filters/box.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/box.cpp > CMakeFiles/pbrt.dir/src/filters/box.cpp.i
 
 CMakeFiles/pbrt.dir/src/filters/box.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/filters/box.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/box.cpp -o CMakeFiles/pbrt.dir/src/filters/box.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/box.cpp -o CMakeFiles/pbrt.dir/src/filters/box.cpp.s
 
 CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/gaussian.cpp
 CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o -MF CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o.d -o CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/gaussian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o -MF CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o.d -o CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/gaussian.cpp
 
 CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/gaussian.cpp > CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/gaussian.cpp > CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.i
 
 CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/gaussian.cpp -o CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/gaussian.cpp -o CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.s
 
 CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/mitchell.cpp
 CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o -MF CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o.d -o CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/mitchell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o -MF CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o.d -o CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/mitchell.cpp
 
 CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/mitchell.cpp > CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/mitchell.cpp > CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.i
 
 CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/mitchell.cpp -o CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/mitchell.cpp -o CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.s
 
 CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/sinc.cpp
 CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o -MF CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o.d -o CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/sinc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o -MF CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o.d -o CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/sinc.cpp
 
 CMakeFiles/pbrt.dir/src/filters/sinc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/filters/sinc.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/sinc.cpp > CMakeFiles/pbrt.dir/src/filters/sinc.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/sinc.cpp > CMakeFiles/pbrt.dir/src/filters/sinc.cpp.i
 
 CMakeFiles/pbrt.dir/src/filters/sinc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/filters/sinc.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/sinc.cpp -o CMakeFiles/pbrt.dir/src/filters/sinc.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/sinc.cpp -o CMakeFiles/pbrt.dir/src/filters/sinc.cpp.s
 
 CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/triangle.cpp
 CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o -MF CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o.d -o CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o -MF CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o.d -o CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/triangle.cpp
 
 CMakeFiles/pbrt.dir/src/filters/triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/filters/triangle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/triangle.cpp > CMakeFiles/pbrt.dir/src/filters/triangle.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/triangle.cpp > CMakeFiles/pbrt.dir/src/filters/triangle.cpp.i
 
 CMakeFiles/pbrt.dir/src/filters/triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/filters/triangle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/triangle.cpp -o CMakeFiles/pbrt.dir/src/filters/triangle.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/filters/triangle.cpp -o CMakeFiles/pbrt.dir/src/filters/triangle.cpp.s
 
 CMakeFiles/pbrt.dir/src/integrators/ao.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/integrators/ao.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/ao.cpp
 CMakeFiles/pbrt.dir/src/integrators/ao.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/ao.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/ao.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/ao.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/ao.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/ao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/ao.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/ao.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/ao.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/ao.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/ao.cpp
 
 CMakeFiles/pbrt.dir/src/integrators/ao.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/integrators/ao.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/ao.cpp > CMakeFiles/pbrt.dir/src/integrators/ao.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/ao.cpp > CMakeFiles/pbrt.dir/src/integrators/ao.cpp.i
 
 CMakeFiles/pbrt.dir/src/integrators/ao.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/integrators/ao.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/ao.cpp -o CMakeFiles/pbrt.dir/src/integrators/ao.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/ao.cpp -o CMakeFiles/pbrt.dir/src/integrators/ao.cpp.s
 
 CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/bdpt.cpp
 CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/bdpt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/bdpt.cpp
 
 CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/bdpt.cpp > CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/bdpt.cpp > CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.i
 
 CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/bdpt.cpp -o CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/bdpt.cpp -o CMakeFiles/pbrt.dir/src/integrators/bdpt.cpp.s
 
 CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/directlighting.cpp
 CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/directlighting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/directlighting.cpp
 
 CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/directlighting.cpp > CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/directlighting.cpp > CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.i
 
 CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/directlighting.cpp -o CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/directlighting.cpp -o CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.s
 
 CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/mlt.cpp
 CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/mlt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/mlt.cpp
 
 CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/mlt.cpp > CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/mlt.cpp > CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.i
 
 CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/mlt.cpp -o CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/mlt.cpp -o CMakeFiles/pbrt.dir/src/integrators/mlt.cpp.s
 
 CMakeFiles/pbrt.dir/src/integrators/path.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/integrators/path.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/path.cpp
 CMakeFiles/pbrt.dir/src/integrators/path.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/path.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/path.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/path.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/path.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/path.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/path.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/path.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/path.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/path.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/path.cpp
 
 CMakeFiles/pbrt.dir/src/integrators/path.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/integrators/path.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/path.cpp > CMakeFiles/pbrt.dir/src/integrators/path.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/path.cpp > CMakeFiles/pbrt.dir/src/integrators/path.cpp.i
 
 CMakeFiles/pbrt.dir/src/integrators/path.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/integrators/path.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/path.cpp -o CMakeFiles/pbrt.dir/src/integrators/path.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/path.cpp -o CMakeFiles/pbrt.dir/src/integrators/path.cpp.s
 
 CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/sppm.cpp
 CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/sppm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/sppm.cpp
 
 CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/sppm.cpp > CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/sppm.cpp > CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.i
 
 CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/sppm.cpp -o CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/sppm.cpp -o CMakeFiles/pbrt.dir/src/integrators/sppm.cpp.s
 
 CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/volpath.cpp
 CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/volpath.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/volpath.cpp
 
 CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/volpath.cpp > CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/volpath.cpp > CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.i
 
 CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/volpath.cpp -o CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/volpath.cpp -o CMakeFiles/pbrt.dir/src/integrators/volpath.cpp.s
 
 CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/whitted.cpp
 CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/whitted.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o -MF CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o.d -o CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/whitted.cpp
 
 CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/whitted.cpp > CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/whitted.cpp > CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.i
 
 CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/whitted.cpp -o CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/integrators/whitted.cpp -o CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.s
 
 CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/diffuse.cpp
 CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/diffuse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/diffuse.cpp
 
 CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/diffuse.cpp > CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/diffuse.cpp > CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.i
 
 CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/diffuse.cpp -o CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/diffuse.cpp -o CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.s
 
 CMakeFiles/pbrt.dir/src/lights/distant.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/lights/distant.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/distant.cpp
 CMakeFiles/pbrt.dir/src/lights/distant.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/pbrt.dir/src/lights/distant.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/distant.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/distant.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/distant.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/distant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/pbrt.dir/src/lights/distant.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/distant.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/distant.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/distant.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/distant.cpp
 
 CMakeFiles/pbrt.dir/src/lights/distant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/lights/distant.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/distant.cpp > CMakeFiles/pbrt.dir/src/lights/distant.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/distant.cpp > CMakeFiles/pbrt.dir/src/lights/distant.cpp.i
 
 CMakeFiles/pbrt.dir/src/lights/distant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/lights/distant.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/distant.cpp -o CMakeFiles/pbrt.dir/src/lights/distant.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/distant.cpp -o CMakeFiles/pbrt.dir/src/lights/distant.cpp.s
 
 CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/goniometric.cpp
 CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/goniometric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/goniometric.cpp
 
 CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/goniometric.cpp > CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/goniometric.cpp > CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.i
 
 CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/goniometric.cpp -o CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/goniometric.cpp -o CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.s
 
 CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/infinite.cpp
 CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/infinite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/infinite.cpp
 
 CMakeFiles/pbrt.dir/src/lights/infinite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/lights/infinite.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/infinite.cpp > CMakeFiles/pbrt.dir/src/lights/infinite.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/infinite.cpp > CMakeFiles/pbrt.dir/src/lights/infinite.cpp.i
 
 CMakeFiles/pbrt.dir/src/lights/infinite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/lights/infinite.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/infinite.cpp -o CMakeFiles/pbrt.dir/src/lights/infinite.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/infinite.cpp -o CMakeFiles/pbrt.dir/src/lights/infinite.cpp.s
 
 CMakeFiles/pbrt.dir/src/lights/point.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/lights/point.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/point.cpp
 CMakeFiles/pbrt.dir/src/lights/point.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/pbrt.dir/src/lights/point.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/point.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/point.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/point.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/pbrt.dir/src/lights/point.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/point.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/point.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/point.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/point.cpp
 
 CMakeFiles/pbrt.dir/src/lights/point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/lights/point.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/point.cpp > CMakeFiles/pbrt.dir/src/lights/point.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/point.cpp > CMakeFiles/pbrt.dir/src/lights/point.cpp.i
 
 CMakeFiles/pbrt.dir/src/lights/point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/lights/point.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/point.cpp -o CMakeFiles/pbrt.dir/src/lights/point.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/point.cpp -o CMakeFiles/pbrt.dir/src/lights/point.cpp.s
 
 CMakeFiles/pbrt.dir/src/lights/projection.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/lights/projection.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/projection.cpp
 CMakeFiles/pbrt.dir/src/lights/projection.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/pbrt.dir/src/lights/projection.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/projection.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/projection.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/projection.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/projection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/pbrt.dir/src/lights/projection.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/projection.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/projection.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/projection.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/projection.cpp
 
 CMakeFiles/pbrt.dir/src/lights/projection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/lights/projection.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/projection.cpp > CMakeFiles/pbrt.dir/src/lights/projection.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/projection.cpp > CMakeFiles/pbrt.dir/src/lights/projection.cpp.i
 
 CMakeFiles/pbrt.dir/src/lights/projection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/lights/projection.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/projection.cpp -o CMakeFiles/pbrt.dir/src/lights/projection.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/projection.cpp -o CMakeFiles/pbrt.dir/src/lights/projection.cpp.s
 
 CMakeFiles/pbrt.dir/src/lights/spot.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/lights/spot.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/spot.cpp
 CMakeFiles/pbrt.dir/src/lights/spot.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/pbrt.dir/src/lights/spot.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/spot.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/spot.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/spot.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/spot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/pbrt.dir/src/lights/spot.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/lights/spot.cpp.o -MF CMakeFiles/pbrt.dir/src/lights/spot.cpp.o.d -o CMakeFiles/pbrt.dir/src/lights/spot.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/spot.cpp
 
 CMakeFiles/pbrt.dir/src/lights/spot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/lights/spot.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/spot.cpp > CMakeFiles/pbrt.dir/src/lights/spot.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/spot.cpp > CMakeFiles/pbrt.dir/src/lights/spot.cpp.i
 
 CMakeFiles/pbrt.dir/src/lights/spot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/lights/spot.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/spot.cpp -o CMakeFiles/pbrt.dir/src/lights/spot.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/lights/spot.cpp -o CMakeFiles/pbrt.dir/src/lights/spot.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/disney.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/disney.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/disney.cpp
 CMakeFiles/pbrt.dir/src/materials/disney.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/pbrt.dir/src/materials/disney.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/disney.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/disney.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/disney.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/disney.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/pbrt.dir/src/materials/disney.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/disney.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/disney.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/disney.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/disney.cpp
 
 CMakeFiles/pbrt.dir/src/materials/disney.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/disney.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/disney.cpp > CMakeFiles/pbrt.dir/src/materials/disney.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/disney.cpp > CMakeFiles/pbrt.dir/src/materials/disney.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/disney.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/disney.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/disney.cpp -o CMakeFiles/pbrt.dir/src/materials/disney.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/disney.cpp -o CMakeFiles/pbrt.dir/src/materials/disney.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/fourier.cpp
 CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/fourier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/fourier.cpp
 
 CMakeFiles/pbrt.dir/src/materials/fourier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/fourier.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/fourier.cpp > CMakeFiles/pbrt.dir/src/materials/fourier.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/fourier.cpp > CMakeFiles/pbrt.dir/src/materials/fourier.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/fourier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/fourier.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/fourier.cpp -o CMakeFiles/pbrt.dir/src/materials/fourier.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/fourier.cpp -o CMakeFiles/pbrt.dir/src/materials/fourier.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/glass.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/glass.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/glass.cpp
 CMakeFiles/pbrt.dir/src/materials/glass.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/pbrt.dir/src/materials/glass.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/glass.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/glass.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/glass.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/glass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/pbrt.dir/src/materials/glass.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/glass.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/glass.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/glass.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/glass.cpp
 
 CMakeFiles/pbrt.dir/src/materials/glass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/glass.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/glass.cpp > CMakeFiles/pbrt.dir/src/materials/glass.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/glass.cpp > CMakeFiles/pbrt.dir/src/materials/glass.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/glass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/glass.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/glass.cpp -o CMakeFiles/pbrt.dir/src/materials/glass.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/glass.cpp -o CMakeFiles/pbrt.dir/src/materials/glass.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/hair.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/hair.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/hair.cpp
 CMakeFiles/pbrt.dir/src/materials/hair.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/pbrt.dir/src/materials/hair.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/hair.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/hair.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/hair.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/hair.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/pbrt.dir/src/materials/hair.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/hair.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/hair.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/hair.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/hair.cpp
 
 CMakeFiles/pbrt.dir/src/materials/hair.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/hair.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/hair.cpp > CMakeFiles/pbrt.dir/src/materials/hair.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/hair.cpp > CMakeFiles/pbrt.dir/src/materials/hair.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/hair.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/hair.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/hair.cpp -o CMakeFiles/pbrt.dir/src/materials/hair.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/hair.cpp -o CMakeFiles/pbrt.dir/src/materials/hair.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/kdsubsurface.cpp
 CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/kdsubsurface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/kdsubsurface.cpp
 
 CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/kdsubsurface.cpp > CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/kdsubsurface.cpp > CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/kdsubsurface.cpp -o CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/kdsubsurface.cpp -o CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/matte.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/matte.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/matte.cpp
 CMakeFiles/pbrt.dir/src/materials/matte.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/pbrt.dir/src/materials/matte.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/matte.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/matte.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/matte.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/matte.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/pbrt.dir/src/materials/matte.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/matte.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/matte.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/matte.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/matte.cpp
 
 CMakeFiles/pbrt.dir/src/materials/matte.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/matte.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/matte.cpp > CMakeFiles/pbrt.dir/src/materials/matte.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/matte.cpp > CMakeFiles/pbrt.dir/src/materials/matte.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/matte.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/matte.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/matte.cpp -o CMakeFiles/pbrt.dir/src/materials/matte.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/matte.cpp -o CMakeFiles/pbrt.dir/src/materials/matte.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/metal.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/metal.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/metal.cpp
 CMakeFiles/pbrt.dir/src/materials/metal.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/pbrt.dir/src/materials/metal.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/metal.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/metal.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/metal.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/metal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/pbrt.dir/src/materials/metal.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/metal.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/metal.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/metal.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/metal.cpp
 
 CMakeFiles/pbrt.dir/src/materials/metal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/metal.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/metal.cpp > CMakeFiles/pbrt.dir/src/materials/metal.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/metal.cpp > CMakeFiles/pbrt.dir/src/materials/metal.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/metal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/metal.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/metal.cpp -o CMakeFiles/pbrt.dir/src/materials/metal.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/metal.cpp -o CMakeFiles/pbrt.dir/src/materials/metal.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mirror.cpp
 CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mirror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mirror.cpp
 
 CMakeFiles/pbrt.dir/src/materials/mirror.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/mirror.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mirror.cpp > CMakeFiles/pbrt.dir/src/materials/mirror.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mirror.cpp > CMakeFiles/pbrt.dir/src/materials/mirror.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/mirror.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/mirror.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mirror.cpp -o CMakeFiles/pbrt.dir/src/materials/mirror.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mirror.cpp -o CMakeFiles/pbrt.dir/src/materials/mirror.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mixmat.cpp
 CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mixmat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mixmat.cpp
 
 CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mixmat.cpp > CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mixmat.cpp > CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mixmat.cpp -o CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/mixmat.cpp -o CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/plastic.cpp
 CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/plastic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/plastic.cpp
 
 CMakeFiles/pbrt.dir/src/materials/plastic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/plastic.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/plastic.cpp > CMakeFiles/pbrt.dir/src/materials/plastic.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/plastic.cpp > CMakeFiles/pbrt.dir/src/materials/plastic.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/plastic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/plastic.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/plastic.cpp -o CMakeFiles/pbrt.dir/src/materials/plastic.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/plastic.cpp -o CMakeFiles/pbrt.dir/src/materials/plastic.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/substrate.cpp
 CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/substrate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/substrate.cpp
 
 CMakeFiles/pbrt.dir/src/materials/substrate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/substrate.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/substrate.cpp > CMakeFiles/pbrt.dir/src/materials/substrate.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/substrate.cpp > CMakeFiles/pbrt.dir/src/materials/substrate.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/substrate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/substrate.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/substrate.cpp -o CMakeFiles/pbrt.dir/src/materials/substrate.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/substrate.cpp -o CMakeFiles/pbrt.dir/src/materials/substrate.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/subsurface.cpp
 CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/subsurface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/subsurface.cpp
 
 CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/subsurface.cpp > CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/subsurface.cpp > CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/subsurface.cpp -o CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/subsurface.cpp -o CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/translucent.cpp
 CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/translucent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/translucent.cpp
 
 CMakeFiles/pbrt.dir/src/materials/translucent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/translucent.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/translucent.cpp > CMakeFiles/pbrt.dir/src/materials/translucent.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/translucent.cpp > CMakeFiles/pbrt.dir/src/materials/translucent.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/translucent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/translucent.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/translucent.cpp -o CMakeFiles/pbrt.dir/src/materials/translucent.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/translucent.cpp -o CMakeFiles/pbrt.dir/src/materials/translucent.cpp.s
 
 CMakeFiles/pbrt.dir/src/materials/uber.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/uber.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/uber.cpp
 CMakeFiles/pbrt.dir/src/materials/uber.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/pbrt.dir/src/materials/uber.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/uber.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/uber.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/uber.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/uber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/pbrt.dir/src/materials/uber.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/materials/uber.cpp.o -MF CMakeFiles/pbrt.dir/src/materials/uber.cpp.o.d -o CMakeFiles/pbrt.dir/src/materials/uber.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/uber.cpp
 
 CMakeFiles/pbrt.dir/src/materials/uber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/uber.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/uber.cpp > CMakeFiles/pbrt.dir/src/materials/uber.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/uber.cpp > CMakeFiles/pbrt.dir/src/materials/uber.cpp.i
 
 CMakeFiles/pbrt.dir/src/materials/uber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/uber.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/uber.cpp -o CMakeFiles/pbrt.dir/src/materials/uber.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/materials/uber.cpp -o CMakeFiles/pbrt.dir/src/materials/uber.cpp.s
 
 CMakeFiles/pbrt.dir/src/media/grid.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/media/grid.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/grid.cpp
 CMakeFiles/pbrt.dir/src/media/grid.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/pbrt.dir/src/media/grid.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/media/grid.cpp.o -MF CMakeFiles/pbrt.dir/src/media/grid.cpp.o.d -o CMakeFiles/pbrt.dir/src/media/grid.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/grid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/pbrt.dir/src/media/grid.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/media/grid.cpp.o -MF CMakeFiles/pbrt.dir/src/media/grid.cpp.o.d -o CMakeFiles/pbrt.dir/src/media/grid.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/grid.cpp
 
 CMakeFiles/pbrt.dir/src/media/grid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/media/grid.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/grid.cpp > CMakeFiles/pbrt.dir/src/media/grid.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/grid.cpp > CMakeFiles/pbrt.dir/src/media/grid.cpp.i
 
 CMakeFiles/pbrt.dir/src/media/grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/media/grid.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/grid.cpp -o CMakeFiles/pbrt.dir/src/media/grid.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/grid.cpp -o CMakeFiles/pbrt.dir/src/media/grid.cpp.s
 
 CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/homogeneous.cpp
 CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o -MF CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o.d -o CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/homogeneous.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o -MF CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o.d -o CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/homogeneous.cpp
 
 CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/homogeneous.cpp > CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/homogeneous.cpp > CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.i
 
 CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/homogeneous.cpp -o CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/media/homogeneous.cpp -o CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.s
 
 CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/halton.cpp
 CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o -MF CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o.d -o CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/halton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o -MF CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o.d -o CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/halton.cpp
 
 CMakeFiles/pbrt.dir/src/samplers/halton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/samplers/halton.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/halton.cpp > CMakeFiles/pbrt.dir/src/samplers/halton.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/halton.cpp > CMakeFiles/pbrt.dir/src/samplers/halton.cpp.i
 
 CMakeFiles/pbrt.dir/src/samplers/halton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/samplers/halton.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/halton.cpp -o CMakeFiles/pbrt.dir/src/samplers/halton.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/halton.cpp -o CMakeFiles/pbrt.dir/src/samplers/halton.cpp.s
 
 CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/maxmin.cpp
 CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o -MF CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o.d -o CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/maxmin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o -MF CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o.d -o CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/maxmin.cpp
 
 CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/maxmin.cpp > CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/maxmin.cpp > CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.i
 
 CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/maxmin.cpp -o CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/maxmin.cpp -o CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.s
 
 CMakeFiles/pbrt.dir/src/samplers/random.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/random.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/random.cpp
 CMakeFiles/pbrt.dir/src/samplers/random.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/random.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/samplers/random.cpp.o -MF CMakeFiles/pbrt.dir/src/samplers/random.cpp.o.d -o CMakeFiles/pbrt.dir/src/samplers/random.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/random.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/random.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/samplers/random.cpp.o -MF CMakeFiles/pbrt.dir/src/samplers/random.cpp.o.d -o CMakeFiles/pbrt.dir/src/samplers/random.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/random.cpp
 
 CMakeFiles/pbrt.dir/src/samplers/random.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/samplers/random.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/random.cpp > CMakeFiles/pbrt.dir/src/samplers/random.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/random.cpp > CMakeFiles/pbrt.dir/src/samplers/random.cpp.i
 
 CMakeFiles/pbrt.dir/src/samplers/random.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/samplers/random.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/random.cpp -o CMakeFiles/pbrt.dir/src/samplers/random.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/random.cpp -o CMakeFiles/pbrt.dir/src/samplers/random.cpp.s
 
 CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/sobol.cpp
 CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o -MF CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o.d -o CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/sobol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o -MF CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o.d -o CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/sobol.cpp
 
 CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/sobol.cpp > CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/sobol.cpp > CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.i
 
 CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/sobol.cpp -o CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/sobol.cpp -o CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.s
 
 CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/stratified.cpp
 CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o -MF CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o.d -o CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/stratified.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o -MF CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o.d -o CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/stratified.cpp
 
 CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/stratified.cpp > CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/stratified.cpp > CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.i
 
 CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/stratified.cpp -o CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/stratified.cpp -o CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.s
 
 CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/zerotwosequence.cpp
 CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o -MF CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o.d -o CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/zerotwosequence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o -MF CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o.d -o CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/zerotwosequence.cpp
 
 CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/zerotwosequence.cpp > CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/zerotwosequence.cpp > CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.i
 
 CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/zerotwosequence.cpp -o CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/samplers/zerotwosequence.cpp -o CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.s
 
 CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cone.cpp
 CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cone.cpp
 
 CMakeFiles/pbrt.dir/src/shapes/cone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/shapes/cone.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cone.cpp > CMakeFiles/pbrt.dir/src/shapes/cone.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cone.cpp > CMakeFiles/pbrt.dir/src/shapes/cone.cpp.i
 
 CMakeFiles/pbrt.dir/src/shapes/cone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/shapes/cone.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cone.cpp -o CMakeFiles/pbrt.dir/src/shapes/cone.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cone.cpp -o CMakeFiles/pbrt.dir/src/shapes/cone.cpp.s
 
 CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/curve.cpp
 CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/curve.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/curve.cpp
 
 CMakeFiles/pbrt.dir/src/shapes/curve.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/shapes/curve.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/curve.cpp > CMakeFiles/pbrt.dir/src/shapes/curve.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/curve.cpp > CMakeFiles/pbrt.dir/src/shapes/curve.cpp.i
 
 CMakeFiles/pbrt.dir/src/shapes/curve.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/shapes/curve.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/curve.cpp -o CMakeFiles/pbrt.dir/src/shapes/curve.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/curve.cpp -o CMakeFiles/pbrt.dir/src/shapes/curve.cpp.s
 
 CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cylinder.cpp
 CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cylinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cylinder.cpp
 
 CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cylinder.cpp > CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cylinder.cpp > CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.i
 
 CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cylinder.cpp -o CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/cylinder.cpp -o CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.s
 
 CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/disk.cpp
 CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/disk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/disk.cpp
 
 CMakeFiles/pbrt.dir/src/shapes/disk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/shapes/disk.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/disk.cpp > CMakeFiles/pbrt.dir/src/shapes/disk.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/disk.cpp > CMakeFiles/pbrt.dir/src/shapes/disk.cpp.i
 
 CMakeFiles/pbrt.dir/src/shapes/disk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/shapes/disk.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/disk.cpp -o CMakeFiles/pbrt.dir/src/shapes/disk.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/disk.cpp -o CMakeFiles/pbrt.dir/src/shapes/disk.cpp.s
 
 CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/heightfield.cpp
 CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/heightfield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/heightfield.cpp
 
 CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/heightfield.cpp > CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/heightfield.cpp > CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.i
 
 CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/heightfield.cpp -o CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/heightfield.cpp -o CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.s
 
 CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/hyperboloid.cpp
 CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/hyperboloid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/hyperboloid.cpp
 
 CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/hyperboloid.cpp > CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/hyperboloid.cpp > CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.i
 
 CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/hyperboloid.cpp -o CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/hyperboloid.cpp -o CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.s
 
 CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/loopsubdiv.cpp
 CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/loopsubdiv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/loopsubdiv.cpp
 
 CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/loopsubdiv.cpp > CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/loopsubdiv.cpp > CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.i
 
 CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/loopsubdiv.cpp -o CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/loopsubdiv.cpp -o CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.s
 
 CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/nurbs.cpp
 CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/nurbs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/nurbs.cpp
 
 CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/nurbs.cpp > CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/nurbs.cpp > CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.i
 
 CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/nurbs.cpp -o CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/nurbs.cpp -o CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.s
 
 CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/paraboloid.cpp
 CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/paraboloid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/paraboloid.cpp
 
 CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/paraboloid.cpp > CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/paraboloid.cpp > CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.i
 
 CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/paraboloid.cpp -o CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/paraboloid.cpp -o CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.s
 
 CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/plymesh.cpp
 CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/plymesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/plymesh.cpp
 
 CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/plymesh.cpp > CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/plymesh.cpp > CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.i
 
 CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/plymesh.cpp -o CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/plymesh.cpp -o CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.s
 
 CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/sphere.cpp
 CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/sphere.cpp
 
 CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/sphere.cpp > CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/sphere.cpp > CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.i
 
 CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/sphere.cpp -o CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/sphere.cpp -o CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.s
 
 CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/triangle.cpp
 CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o -MF CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o.d -o CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/triangle.cpp
 
 CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/triangle.cpp > CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/triangle.cpp > CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.i
 
 CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/triangle.cpp -o CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/shapes/triangle.cpp -o CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/bilerp.cpp
 CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/bilerp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/bilerp.cpp
 
 CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/bilerp.cpp > CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/bilerp.cpp > CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/bilerp.cpp -o CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/bilerp.cpp -o CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/checkerboard.cpp
 CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/checkerboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/checkerboard.cpp
 
 CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/checkerboard.cpp > CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/checkerboard.cpp > CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/checkerboard.cpp -o CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/checkerboard.cpp -o CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/constant.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/constant.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/constant.cpp
 CMakeFiles/pbrt.dir/src/textures/constant.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/pbrt.dir/src/textures/constant.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/constant.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/constant.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/constant.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/constant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/pbrt.dir/src/textures/constant.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/constant.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/constant.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/constant.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/constant.cpp
 
 CMakeFiles/pbrt.dir/src/textures/constant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/constant.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/constant.cpp > CMakeFiles/pbrt.dir/src/textures/constant.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/constant.cpp > CMakeFiles/pbrt.dir/src/textures/constant.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/constant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/constant.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/constant.cpp -o CMakeFiles/pbrt.dir/src/textures/constant.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/constant.cpp -o CMakeFiles/pbrt.dir/src/textures/constant.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/dots.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/dots.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/dots.cpp
 CMakeFiles/pbrt.dir/src/textures/dots.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/pbrt.dir/src/textures/dots.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/dots.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/dots.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/dots.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/dots.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/pbrt.dir/src/textures/dots.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/dots.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/dots.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/dots.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/dots.cpp
 
 CMakeFiles/pbrt.dir/src/textures/dots.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/dots.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/dots.cpp > CMakeFiles/pbrt.dir/src/textures/dots.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/dots.cpp > CMakeFiles/pbrt.dir/src/textures/dots.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/dots.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/dots.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/dots.cpp -o CMakeFiles/pbrt.dir/src/textures/dots.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/dots.cpp -o CMakeFiles/pbrt.dir/src/textures/dots.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/fbm.cpp
 CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/fbm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/fbm.cpp
 
 CMakeFiles/pbrt.dir/src/textures/fbm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/fbm.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/fbm.cpp > CMakeFiles/pbrt.dir/src/textures/fbm.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/fbm.cpp > CMakeFiles/pbrt.dir/src/textures/fbm.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/fbm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/fbm.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/fbm.cpp -o CMakeFiles/pbrt.dir/src/textures/fbm.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/fbm.cpp -o CMakeFiles/pbrt.dir/src/textures/fbm.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/imagemap.cpp
 CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/imagemap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/imagemap.cpp
 
 CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/imagemap.cpp > CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/imagemap.cpp > CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/imagemap.cpp -o CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/imagemap.cpp -o CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/marble.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/marble.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/marble.cpp
 CMakeFiles/pbrt.dir/src/textures/marble.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/pbrt.dir/src/textures/marble.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/marble.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/marble.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/marble.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/marble.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/pbrt.dir/src/textures/marble.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/marble.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/marble.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/marble.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/marble.cpp
 
 CMakeFiles/pbrt.dir/src/textures/marble.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/marble.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/marble.cpp > CMakeFiles/pbrt.dir/src/textures/marble.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/marble.cpp > CMakeFiles/pbrt.dir/src/textures/marble.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/marble.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/marble.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/marble.cpp -o CMakeFiles/pbrt.dir/src/textures/marble.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/marble.cpp -o CMakeFiles/pbrt.dir/src/textures/marble.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/mix.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/mix.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/mix.cpp
 CMakeFiles/pbrt.dir/src/textures/mix.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/pbrt.dir/src/textures/mix.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/mix.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/mix.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/mix.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/mix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/pbrt.dir/src/textures/mix.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/mix.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/mix.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/mix.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/mix.cpp
 
 CMakeFiles/pbrt.dir/src/textures/mix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/mix.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/mix.cpp > CMakeFiles/pbrt.dir/src/textures/mix.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/mix.cpp > CMakeFiles/pbrt.dir/src/textures/mix.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/mix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/mix.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/mix.cpp -o CMakeFiles/pbrt.dir/src/textures/mix.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/mix.cpp -o CMakeFiles/pbrt.dir/src/textures/mix.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/ptex.cpp
 CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/ptex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/ptex.cpp
 
 CMakeFiles/pbrt.dir/src/textures/ptex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/ptex.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/ptex.cpp > CMakeFiles/pbrt.dir/src/textures/ptex.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/ptex.cpp > CMakeFiles/pbrt.dir/src/textures/ptex.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/ptex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/ptex.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/ptex.cpp -o CMakeFiles/pbrt.dir/src/textures/ptex.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/ptex.cpp -o CMakeFiles/pbrt.dir/src/textures/ptex.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/scale.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/scale.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/scale.cpp
 CMakeFiles/pbrt.dir/src/textures/scale.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/pbrt.dir/src/textures/scale.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/scale.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/scale.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/scale.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/scale.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/pbrt.dir/src/textures/scale.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/scale.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/scale.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/scale.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/scale.cpp
 
 CMakeFiles/pbrt.dir/src/textures/scale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/scale.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/scale.cpp > CMakeFiles/pbrt.dir/src/textures/scale.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/scale.cpp > CMakeFiles/pbrt.dir/src/textures/scale.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/scale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/scale.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/scale.cpp -o CMakeFiles/pbrt.dir/src/textures/scale.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/scale.cpp -o CMakeFiles/pbrt.dir/src/textures/scale.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/uv.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/uv.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/uv.cpp
 CMakeFiles/pbrt.dir/src/textures/uv.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/pbrt.dir/src/textures/uv.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/uv.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/uv.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/uv.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/uv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/pbrt.dir/src/textures/uv.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/uv.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/uv.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/uv.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/uv.cpp
 
 CMakeFiles/pbrt.dir/src/textures/uv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/uv.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/uv.cpp > CMakeFiles/pbrt.dir/src/textures/uv.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/uv.cpp > CMakeFiles/pbrt.dir/src/textures/uv.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/uv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/uv.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/uv.cpp -o CMakeFiles/pbrt.dir/src/textures/uv.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/uv.cpp -o CMakeFiles/pbrt.dir/src/textures/uv.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/windy.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/windy.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/windy.cpp
 CMakeFiles/pbrt.dir/src/textures/windy.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/pbrt.dir/src/textures/windy.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/windy.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/windy.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/windy.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/windy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/pbrt.dir/src/textures/windy.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/windy.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/windy.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/windy.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/windy.cpp
 
 CMakeFiles/pbrt.dir/src/textures/windy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/windy.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/windy.cpp > CMakeFiles/pbrt.dir/src/textures/windy.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/windy.cpp > CMakeFiles/pbrt.dir/src/textures/windy.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/windy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/windy.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/windy.cpp -o CMakeFiles/pbrt.dir/src/textures/windy.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/windy.cpp -o CMakeFiles/pbrt.dir/src/textures/windy.cpp.s
 
 CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/wrinkled.cpp
 CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o: CMakeFiles/pbrt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/wrinkled.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o -MF CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o.d -o CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/wrinkled.cpp
 
 CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/wrinkled.cpp > CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/wrinkled.cpp > CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.i
 
 CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/wrinkled.cpp -o CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/textures/wrinkled.cpp -o CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.s
 
 # Object files for target pbrt
 pbrt_OBJECTS = \
@@ -1777,9 +1749,7 @@ pbrt_OBJECTS = \
 "CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o" \
 "CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o" \
 "CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o" \
-"CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.o" \
 "CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o" \
-"CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.o" \
 "CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o" \
 "CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o" \
 "CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o" \
@@ -1900,9 +1870,7 @@ libpbrt.a: CMakeFiles/pbrt.dir/src/core/transform.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.o
-libpbrt.a: CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.o
-libpbrt.a: CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/bfp/bfputility.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o
@@ -1981,7 +1949,7 @@ libpbrt.a: CMakeFiles/pbrt.dir/src/textures/windy.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/build.make
 libpbrt.a: CMakeFiles/pbrt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Linking CXX static library libpbrt.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Linking CXX static library libpbrt.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/pbrt.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pbrt.dir/link.txt --verbose=$(VERBOSE)
 

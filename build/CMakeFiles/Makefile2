@@ -433,14 +433,14 @@ CMakeFiles/pbrt.dir/clean:
 # Target rules for target CMakeFiles/pbrt_exe.dir
 
 # All Build rule for target.
-CMakeFiles/pbrt_exe.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
-CMakeFiles/pbrt_exe.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
-CMakeFiles/pbrt_exe.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 CMakeFiles/pbrt_exe.dir/all: CMakeFiles/pbrt.dir/all
 CMakeFiles/pbrt_exe.dir/all: src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/all
 CMakeFiles/pbrt_exe.dir/all: src/ext/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/all
 CMakeFiles/pbrt_exe.dir/all: src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/all
 CMakeFiles/pbrt_exe.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmThread.dir/all
+CMakeFiles/pbrt_exe.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
+CMakeFiles/pbrt_exe.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
+CMakeFiles/pbrt_exe.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt_exe.dir/build.make CMakeFiles/pbrt_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt_exe.dir/build.make CMakeFiles/pbrt_exe.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num= "Built target pbrt_exe"
@@ -448,7 +448,7 @@ CMakeFiles/pbrt_exe.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmThr
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pbrt_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 79
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 80
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pbrt_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : CMakeFiles/pbrt_exe.dir/rule
@@ -466,17 +466,17 @@ CMakeFiles/pbrt_exe.dir/clean:
 # Target rules for target CMakeFiles/bsdftest.dir
 
 # All Build rule for target.
-CMakeFiles/bsdftest.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
-CMakeFiles/bsdftest.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
-CMakeFiles/bsdftest.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 CMakeFiles/bsdftest.dir/all: CMakeFiles/pbrt.dir/all
 CMakeFiles/bsdftest.dir/all: src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/all
 CMakeFiles/bsdftest.dir/all: src/ext/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/all
 CMakeFiles/bsdftest.dir/all: src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/all
 CMakeFiles/bsdftest.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmThread.dir/all
+CMakeFiles/bsdftest.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
+CMakeFiles/bsdftest.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
+CMakeFiles/bsdftest.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsdftest.dir/build.make CMakeFiles/bsdftest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bsdftest.dir/build.make CMakeFiles/bsdftest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=41 "Built target bsdftest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num= "Built target bsdftest"
 .PHONY : CMakeFiles/bsdftest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -499,22 +499,22 @@ CMakeFiles/bsdftest.dir/clean:
 # Target rules for target CMakeFiles/imgtool.dir
 
 # All Build rule for target.
-CMakeFiles/imgtool.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
-CMakeFiles/imgtool.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
-CMakeFiles/imgtool.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 CMakeFiles/imgtool.dir/all: CMakeFiles/pbrt.dir/all
 CMakeFiles/imgtool.dir/all: src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/all
 CMakeFiles/imgtool.dir/all: src/ext/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/all
 CMakeFiles/imgtool.dir/all: src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/all
 CMakeFiles/imgtool.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmThread.dir/all
+CMakeFiles/imgtool.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
+CMakeFiles/imgtool.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
+CMakeFiles/imgtool.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgtool.dir/build.make CMakeFiles/imgtool.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgtool.dir/build.make CMakeFiles/imgtool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num= "Built target imgtool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=49 "Built target imgtool"
 .PHONY : CMakeFiles/imgtool.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/imgtool.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 79
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 81
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/imgtool.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : CMakeFiles/imgtool.dir/rule
@@ -584,14 +584,14 @@ CMakeFiles/cyhair2pbrt.dir/clean:
 # Target rules for target CMakeFiles/pbrt_test.dir
 
 # All Build rule for target.
-CMakeFiles/pbrt_test.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
-CMakeFiles/pbrt_test.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
-CMakeFiles/pbrt_test.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 CMakeFiles/pbrt_test.dir/all: CMakeFiles/pbrt.dir/all
 CMakeFiles/pbrt_test.dir/all: src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/all
 CMakeFiles/pbrt_test.dir/all: src/ext/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/all
 CMakeFiles/pbrt_test.dir/all: src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/all
 CMakeFiles/pbrt_test.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmThread.dir/all
+CMakeFiles/pbrt_test.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
+CMakeFiles/pbrt_test.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
+CMakeFiles/pbrt_test.dir/all: src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt_test.dir/build.make CMakeFiles/pbrt_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt_test.dir/build.make CMakeFiles/pbrt_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=88,89,90,91,92,93,94 "Built target pbrt_test"
@@ -599,7 +599,7 @@ CMakeFiles/pbrt_test.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmTh
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pbrt_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 86
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 87
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pbrt_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : CMakeFiles/pbrt_test.dir/rule
@@ -649,12 +649,12 @@ src/ext/openexr/CMakeFiles/CopyIlmBaseLibs.dir/clean:
 src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/build.make src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/build.make src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=44 "Built target eLut"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num= "Built target eLut"
 .PHONY : src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/all
 
 # Build rule for subdir invocation for target.
 src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/openexr/IlmBase/Half/CMakeFiles/eLut.dir/rule
@@ -707,7 +707,7 @@ src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/all: src/ext/openexr/IlmBase/Ha
 
 # Build rule for subdir invocation for target.
 src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/rule
@@ -780,12 +780,12 @@ src/ext/openexr/IlmBase/IexMath/CMakeFiles/IexMath.dir/clean:
 src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/all: src/ext/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/all
 	$(MAKE) $(MAKESILENT) -f src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/build.make src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/build.make src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=35,36 "Built target Imath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=35,36,37 "Built target Imath"
 .PHONY : src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/all
 
 # Build rule for subdir invocation for target.
 src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/rule
@@ -835,12 +835,12 @@ src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/b44ExpLogTable.dir/all: src/ext/openex
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/b44ExpLogTable.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmThread.dir/all
 	$(MAKE) $(MAKESILENT) -f src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/b44ExpLogTable.dir/build.make src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/b44ExpLogTable.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/b44ExpLogTable.dir/build.make src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/b44ExpLogTable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num= "Built target b44ExpLogTable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=41 "Built target b44ExpLogTable"
 .PHONY : src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/b44ExpLogTable.dir/all
 
 # Build rule for subdir invocation for target.
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/b44ExpLogTable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/b44ExpLogTable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/b44ExpLogTable.dir/rule
@@ -864,12 +864,12 @@ src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/all: src/ext/openexr/Il
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmThread.dir/all
 	$(MAKE) $(MAKESILENT) -f src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/build.make src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/build.make src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num= "Built target dwaLookups"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=44 "Built target dwaLookups"
 .PHONY : src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/all
 
 # Build rule for subdir invocation for target.
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/rule
@@ -913,13 +913,13 @@ src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf-obj.dir/clean:
 # Target rules for target src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir
 
 # All Build rule for target.
-src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/b44ExpLogTable.dir/all
-src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/all
-src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf-obj.dir/all
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all: src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/all
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all: src/ext/openexr/IlmBase/Iex/CMakeFiles/Iex.dir/all
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all: src/ext/openexr/IlmBase/Imath/CMakeFiles/Imath.dir/all
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all: src/ext/openexr/IlmBase/IlmThread/CMakeFiles/IlmThread.dir/all
+src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/b44ExpLogTable.dir/all
+src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/dwaLookups.dir/all
+src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all: src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf-obj.dir/all
 	$(MAKE) $(MAKESILENT) -f src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/build.make src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/build.make src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=4 "Built target IlmImf"
@@ -927,7 +927,7 @@ src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all: src/ext/openexr/IlmBas
 
 # Build rule for subdir invocation for target.
 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/IlmImf.dir/rule
@@ -974,12 +974,12 @@ src/ext/glog/CMakeFiles/glog.dir/clean:
 src/ext/glog/CMakeFiles/logging_unittest.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
 	$(MAKE) $(MAKESILENT) -f src/ext/glog/CMakeFiles/logging_unittest.dir/build.make src/ext/glog/CMakeFiles/logging_unittest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ext/glog/CMakeFiles/logging_unittest.dir/build.make src/ext/glog/CMakeFiles/logging_unittest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=49 "Built target logging_unittest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num= "Built target logging_unittest"
 .PHONY : src/ext/glog/CMakeFiles/logging_unittest.dir/all
 
 # Build rule for subdir invocation for target.
 src/ext/glog/CMakeFiles/logging_unittest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/glog/CMakeFiles/logging_unittest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/glog/CMakeFiles/logging_unittest.dir/rule
@@ -1052,12 +1052,12 @@ src/ext/glog/CMakeFiles/symbolize_unittest.dir/clean:
 src/ext/glog/CMakeFiles/demangle_unittest.dir/all: src/ext/glog/CMakeFiles/glog.dir/all
 	$(MAKE) $(MAKESILENT) -f src/ext/glog/CMakeFiles/demangle_unittest.dir/build.make src/ext/glog/CMakeFiles/demangle_unittest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ext/glog/CMakeFiles/demangle_unittest.dir/build.make src/ext/glog/CMakeFiles/demangle_unittest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num= "Built target demangle_unittest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=43 "Built target demangle_unittest"
 .PHONY : src/ext/glog/CMakeFiles/demangle_unittest.dir/all
 
 # Build rule for subdir invocation for target.
 src/ext/glog/CMakeFiles/demangle_unittest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/glog/CMakeFiles/demangle_unittest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/glog/CMakeFiles/demangle_unittest.dir/rule
@@ -1884,12 +1884,12 @@ src/ext/ptex/CMakeFiles/ContinuousSubmit.dir/clean:
 src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/build.make src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/build.make src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=37,38,39,40 "Built target Ptex_static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=38,39,40 "Built target Ptex_static"
 .PHONY : src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 
 # Build rule for subdir invocation for target.
 src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/ptex/src/ptex/CMakeFiles/Ptex_static.dir/rule
@@ -1915,7 +1915,7 @@ src/ext/ptex/src/utils/CMakeFiles/ptxinfo.dir/all: src/ext/ptex/src/ptex/CMakeFi
 
 # Build rule for subdir invocation for target.
 src/ext/ptex/src/utils/CMakeFiles/ptxinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/ptex/src/utils/CMakeFiles/ptxinfo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/ptex/src/utils/CMakeFiles/ptxinfo.dir/rule
@@ -1941,7 +1941,7 @@ src/ext/ptex/src/tests/CMakeFiles/wtest.dir/all: src/ext/ptex/src/ptex/CMakeFile
 
 # Build rule for subdir invocation for target.
 src/ext/ptex/src/tests/CMakeFiles/wtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/ptex/src/tests/CMakeFiles/wtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/ptex/src/tests/CMakeFiles/wtest.dir/rule
@@ -1967,7 +1967,7 @@ src/ext/ptex/src/tests/CMakeFiles/rtest.dir/all: src/ext/ptex/src/ptex/CMakeFile
 
 # Build rule for subdir invocation for target.
 src/ext/ptex/src/tests/CMakeFiles/rtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/ptex/src/tests/CMakeFiles/rtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/ptex/src/tests/CMakeFiles/rtest.dir/rule
@@ -1993,7 +1993,7 @@ src/ext/ptex/src/tests/CMakeFiles/ftest.dir/all: src/ext/ptex/src/ptex/CMakeFile
 
 # Build rule for subdir invocation for target.
 src/ext/ptex/src/tests/CMakeFiles/ftest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/ptex/src/tests/CMakeFiles/ftest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/ptex/src/tests/CMakeFiles/ftest.dir/rule
@@ -2019,7 +2019,7 @@ src/ext/ptex/src/tests/CMakeFiles/halftest.dir/all: src/ext/ptex/src/ptex/CMakeF
 
 # Build rule for subdir invocation for target.
 src/ext/ptex/src/tests/CMakeFiles/halftest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/ptex/src/tests/CMakeFiles/halftest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/ptex/src/tests/CMakeFiles/halftest.dir/rule
@@ -2040,12 +2040,12 @@ src/ext/ptex/src/tests/CMakeFiles/halftest.dir/clean:
 src/ext/ptex/src/doc/CMakeFiles/doc.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/ext/ptex/src/doc/CMakeFiles/doc.dir/build.make src/ext/ptex/src/doc/CMakeFiles/doc.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/ext/ptex/src/doc/CMakeFiles/doc.dir/build.make src/ext/ptex/src/doc/CMakeFiles/doc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=43 "Built target doc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num= "Built target doc"
 .PHONY : src/ext/ptex/src/doc/CMakeFiles/doc.dir/all
 
 # Build rule for subdir invocation for target.
 src/ext/ptex/src/doc/CMakeFiles/doc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ext/ptex/src/doc/CMakeFiles/doc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles 0
 .PHONY : src/ext/ptex/src/doc/CMakeFiles/doc.dir/rule

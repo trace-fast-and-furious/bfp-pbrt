@@ -1082,30 +1082,6 @@ src/bfp/bfpblock.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfpblock.cpp.s
 .PHONY : src/bfp/bfpblock.cpp.s
 
-src/bfp/bfpimpl.o: src/bfp/bfpimpl.cpp.o
-.PHONY : src/bfp/bfpimpl.o
-
-# target to build an object file
-src/bfp/bfpimpl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.o
-.PHONY : src/bfp/bfpimpl.cpp.o
-
-src/bfp/bfpimpl.i: src/bfp/bfpimpl.cpp.i
-.PHONY : src/bfp/bfpimpl.i
-
-# target to preprocess a source file
-src/bfp/bfpimpl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.i
-.PHONY : src/bfp/bfpimpl.cpp.i
-
-src/bfp/bfpimpl.s: src/bfp/bfpimpl.cpp.s
-.PHONY : src/bfp/bfpimpl.s
-
-# target to generate assembly for a file
-src/bfp/bfpimpl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfpimpl.cpp.s
-.PHONY : src/bfp/bfpimpl.cpp.s
-
 src/bfp/bfpnum.o: src/bfp/bfpnum.cpp.o
 .PHONY : src/bfp/bfpnum.o
 
@@ -1129,30 +1105,6 @@ src/bfp/bfpnum.s: src/bfp/bfpnum.cpp.s
 src/bfp/bfpnum.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfpnum.cpp.s
 .PHONY : src/bfp/bfpnum.cpp.s
-
-src/bfp/bfptest.o: src/bfp/bfptest.cpp.o
-.PHONY : src/bfp/bfptest.o
-
-# target to build an object file
-src/bfp/bfptest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.o
-.PHONY : src/bfp/bfptest.cpp.o
-
-src/bfp/bfptest.i: src/bfp/bfptest.cpp.i
-.PHONY : src/bfp/bfptest.i
-
-# target to preprocess a source file
-src/bfp/bfptest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.i
-.PHONY : src/bfp/bfptest.cpp.i
-
-src/bfp/bfptest.s: src/bfp/bfptest.cpp.s
-.PHONY : src/bfp/bfptest.s
-
-# target to generate assembly for a file
-src/bfp/bfptest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/bfp/bfptest.cpp.s
-.PHONY : src/bfp/bfptest.cpp.s
 
 src/bfp/bfputility.o: src/bfp/bfputility.cpp.o
 .PHONY : src/bfp/bfputility.o
@@ -4553,15 +4505,9 @@ help:
 	@echo "... src/bfp/bfpblock.o"
 	@echo "... src/bfp/bfpblock.i"
 	@echo "... src/bfp/bfpblock.s"
-	@echo "... src/bfp/bfpimpl.o"
-	@echo "... src/bfp/bfpimpl.i"
-	@echo "... src/bfp/bfpimpl.s"
 	@echo "... src/bfp/bfpnum.o"
 	@echo "... src/bfp/bfpnum.i"
 	@echo "... src/bfp/bfpnum.s"
-	@echo "... src/bfp/bfptest.o"
-	@echo "... src/bfp/bfptest.i"
-	@echo "... src/bfp/bfptest.s"
 	@echo "... src/bfp/bfputility.o"
 	@echo "... src/bfp/bfputility.i"
 	@echo "... src/bfp/bfputility.s"

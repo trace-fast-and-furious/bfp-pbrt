@@ -1,13 +1,4 @@
-#ifndef PBRT_BFP_UTILITY_H
-#define PBRT_BFP_UTILITY_H
-
-#include <stdint.h>
-
-#include <cmath>
-#include <iostream>
-#include <stdexcept>
-#include <string>
-#include <vector>
+#include "bfp/bfputility.h"
 
 namespace pbrt {
 /* print functions */
@@ -74,4 +65,3 @@ int64_t RoundToNearestEven(int64_t num, int point) {
     return num;
 }
 }  // namespace pbrt
-#endif

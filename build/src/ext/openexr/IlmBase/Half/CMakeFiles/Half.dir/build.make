@@ -83,15 +83,15 @@ src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/half.cpp.o: src/ext/openexr/Ilm
 src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/half.cpp.o: src/ext/openexr/IlmBase/Half/toFloat.h
 src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/half.cpp.o: src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/half.cpp.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/half.cpp.o -MF CMakeFiles/Half.dir/half.cpp.o.d -o CMakeFiles/Half.dir/half.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/half.cpp.o -MF CMakeFiles/Half.dir/half.cpp.o.d -o CMakeFiles/Half.dir/half.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp
 
 src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/half.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Half.dir/half.cpp.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp > CMakeFiles/Half.dir/half.cpp.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp > CMakeFiles/Half.dir/half.cpp.i
 
 src/ext/openexr/IlmBase/Half/CMakeFiles/Half.dir/half.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Half.dir/half.cpp.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp -o CMakeFiles/Half.dir/half.cpp.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/openexr/IlmBase/Half && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp -o CMakeFiles/Half.dir/half.cpp.s
 
 # Object files for target Half
 Half_OBJECTS = \

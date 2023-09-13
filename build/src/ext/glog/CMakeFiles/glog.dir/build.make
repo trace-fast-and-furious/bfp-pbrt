@@ -73,99 +73,99 @@ src/ext/glog/CMakeFiles/glog.dir/src/demangle.cc.o: src/ext/glog/CMakeFiles/glog
 src/ext/glog/CMakeFiles/glog.dir/src/demangle.cc.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle.cc
 src/ext/glog/CMakeFiles/glog.dir/src/demangle.cc.o: src/ext/glog/CMakeFiles/glog.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/ext/glog/CMakeFiles/glog.dir/src/demangle.cc.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/demangle.cc.o -MF CMakeFiles/glog.dir/src/demangle.cc.o.d -o CMakeFiles/glog.dir/src/demangle.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle.cc
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/demangle.cc.o -MF CMakeFiles/glog.dir/src/demangle.cc.o.d -o CMakeFiles/glog.dir/src/demangle.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle.cc
 
 src/ext/glog/CMakeFiles/glog.dir/src/demangle.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glog.dir/src/demangle.cc.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle.cc > CMakeFiles/glog.dir/src/demangle.cc.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle.cc > CMakeFiles/glog.dir/src/demangle.cc.i
 
 src/ext/glog/CMakeFiles/glog.dir/src/demangle.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glog.dir/src/demangle.cc.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle.cc -o CMakeFiles/glog.dir/src/demangle.cc.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/demangle.cc -o CMakeFiles/glog.dir/src/demangle.cc.s
 
 src/ext/glog/CMakeFiles/glog.dir/src/logging.cc.o: src/ext/glog/CMakeFiles/glog.dir/flags.make
 src/ext/glog/CMakeFiles/glog.dir/src/logging.cc.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/logging.cc
 src/ext/glog/CMakeFiles/glog.dir/src/logging.cc.o: src/ext/glog/CMakeFiles/glog.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/ext/glog/CMakeFiles/glog.dir/src/logging.cc.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/logging.cc.o -MF CMakeFiles/glog.dir/src/logging.cc.o.d -o CMakeFiles/glog.dir/src/logging.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/logging.cc
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/logging.cc.o -MF CMakeFiles/glog.dir/src/logging.cc.o.d -o CMakeFiles/glog.dir/src/logging.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/logging.cc
 
 src/ext/glog/CMakeFiles/glog.dir/src/logging.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glog.dir/src/logging.cc.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/logging.cc > CMakeFiles/glog.dir/src/logging.cc.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/logging.cc > CMakeFiles/glog.dir/src/logging.cc.i
 
 src/ext/glog/CMakeFiles/glog.dir/src/logging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glog.dir/src/logging.cc.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/logging.cc -o CMakeFiles/glog.dir/src/logging.cc.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/logging.cc -o CMakeFiles/glog.dir/src/logging.cc.s
 
 src/ext/glog/CMakeFiles/glog.dir/src/raw_logging.cc.o: src/ext/glog/CMakeFiles/glog.dir/flags.make
 src/ext/glog/CMakeFiles/glog.dir/src/raw_logging.cc.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/raw_logging.cc
 src/ext/glog/CMakeFiles/glog.dir/src/raw_logging.cc.o: src/ext/glog/CMakeFiles/glog.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/ext/glog/CMakeFiles/glog.dir/src/raw_logging.cc.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/raw_logging.cc.o -MF CMakeFiles/glog.dir/src/raw_logging.cc.o.d -o CMakeFiles/glog.dir/src/raw_logging.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/raw_logging.cc
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/raw_logging.cc.o -MF CMakeFiles/glog.dir/src/raw_logging.cc.o.d -o CMakeFiles/glog.dir/src/raw_logging.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/raw_logging.cc
 
 src/ext/glog/CMakeFiles/glog.dir/src/raw_logging.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glog.dir/src/raw_logging.cc.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/raw_logging.cc > CMakeFiles/glog.dir/src/raw_logging.cc.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/raw_logging.cc > CMakeFiles/glog.dir/src/raw_logging.cc.i
 
 src/ext/glog/CMakeFiles/glog.dir/src/raw_logging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glog.dir/src/raw_logging.cc.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/raw_logging.cc -o CMakeFiles/glog.dir/src/raw_logging.cc.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/raw_logging.cc -o CMakeFiles/glog.dir/src/raw_logging.cc.s
 
 src/ext/glog/CMakeFiles/glog.dir/src/symbolize.cc.o: src/ext/glog/CMakeFiles/glog.dir/flags.make
 src/ext/glog/CMakeFiles/glog.dir/src/symbolize.cc.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/symbolize.cc
 src/ext/glog/CMakeFiles/glog.dir/src/symbolize.cc.o: src/ext/glog/CMakeFiles/glog.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/ext/glog/CMakeFiles/glog.dir/src/symbolize.cc.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/symbolize.cc.o -MF CMakeFiles/glog.dir/src/symbolize.cc.o.d -o CMakeFiles/glog.dir/src/symbolize.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/symbolize.cc
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/symbolize.cc.o -MF CMakeFiles/glog.dir/src/symbolize.cc.o.d -o CMakeFiles/glog.dir/src/symbolize.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/symbolize.cc
 
 src/ext/glog/CMakeFiles/glog.dir/src/symbolize.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glog.dir/src/symbolize.cc.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/symbolize.cc > CMakeFiles/glog.dir/src/symbolize.cc.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/symbolize.cc > CMakeFiles/glog.dir/src/symbolize.cc.i
 
 src/ext/glog/CMakeFiles/glog.dir/src/symbolize.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glog.dir/src/symbolize.cc.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/symbolize.cc -o CMakeFiles/glog.dir/src/symbolize.cc.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/symbolize.cc -o CMakeFiles/glog.dir/src/symbolize.cc.s
 
 src/ext/glog/CMakeFiles/glog.dir/src/utilities.cc.o: src/ext/glog/CMakeFiles/glog.dir/flags.make
 src/ext/glog/CMakeFiles/glog.dir/src/utilities.cc.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/utilities.cc
 src/ext/glog/CMakeFiles/glog.dir/src/utilities.cc.o: src/ext/glog/CMakeFiles/glog.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/ext/glog/CMakeFiles/glog.dir/src/utilities.cc.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/utilities.cc.o -MF CMakeFiles/glog.dir/src/utilities.cc.o.d -o CMakeFiles/glog.dir/src/utilities.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/utilities.cc
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/utilities.cc.o -MF CMakeFiles/glog.dir/src/utilities.cc.o.d -o CMakeFiles/glog.dir/src/utilities.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/utilities.cc
 
 src/ext/glog/CMakeFiles/glog.dir/src/utilities.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glog.dir/src/utilities.cc.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/utilities.cc > CMakeFiles/glog.dir/src/utilities.cc.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/utilities.cc > CMakeFiles/glog.dir/src/utilities.cc.i
 
 src/ext/glog/CMakeFiles/glog.dir/src/utilities.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glog.dir/src/utilities.cc.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/utilities.cc -o CMakeFiles/glog.dir/src/utilities.cc.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/utilities.cc -o CMakeFiles/glog.dir/src/utilities.cc.s
 
 src/ext/glog/CMakeFiles/glog.dir/src/vlog_is_on.cc.o: src/ext/glog/CMakeFiles/glog.dir/flags.make
 src/ext/glog/CMakeFiles/glog.dir/src/vlog_is_on.cc.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/vlog_is_on.cc
 src/ext/glog/CMakeFiles/glog.dir/src/vlog_is_on.cc.o: src/ext/glog/CMakeFiles/glog.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/ext/glog/CMakeFiles/glog.dir/src/vlog_is_on.cc.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/vlog_is_on.cc.o -MF CMakeFiles/glog.dir/src/vlog_is_on.cc.o.d -o CMakeFiles/glog.dir/src/vlog_is_on.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/vlog_is_on.cc
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/vlog_is_on.cc.o -MF CMakeFiles/glog.dir/src/vlog_is_on.cc.o.d -o CMakeFiles/glog.dir/src/vlog_is_on.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/vlog_is_on.cc
 
 src/ext/glog/CMakeFiles/glog.dir/src/vlog_is_on.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glog.dir/src/vlog_is_on.cc.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/vlog_is_on.cc > CMakeFiles/glog.dir/src/vlog_is_on.cc.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/vlog_is_on.cc > CMakeFiles/glog.dir/src/vlog_is_on.cc.i
 
 src/ext/glog/CMakeFiles/glog.dir/src/vlog_is_on.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glog.dir/src/vlog_is_on.cc.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/vlog_is_on.cc -o CMakeFiles/glog.dir/src/vlog_is_on.cc.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/vlog_is_on.cc -o CMakeFiles/glog.dir/src/vlog_is_on.cc.s
 
 src/ext/glog/CMakeFiles/glog.dir/src/signalhandler.cc.o: src/ext/glog/CMakeFiles/glog.dir/flags.make
 src/ext/glog/CMakeFiles/glog.dir/src/signalhandler.cc.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/signalhandler.cc
 src/ext/glog/CMakeFiles/glog.dir/src/signalhandler.cc.o: src/ext/glog/CMakeFiles/glog.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/ext/glog/CMakeFiles/glog.dir/src/signalhandler.cc.o"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/signalhandler.cc.o -MF CMakeFiles/glog.dir/src/signalhandler.cc.o.d -o CMakeFiles/glog.dir/src/signalhandler.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/signalhandler.cc
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/ext/glog/CMakeFiles/glog.dir/src/signalhandler.cc.o -MF CMakeFiles/glog.dir/src/signalhandler.cc.o.d -o CMakeFiles/glog.dir/src/signalhandler.cc.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/signalhandler.cc
 
 src/ext/glog/CMakeFiles/glog.dir/src/signalhandler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glog.dir/src/signalhandler.cc.i"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/signalhandler.cc > CMakeFiles/glog.dir/src/signalhandler.cc.i
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/signalhandler.cc > CMakeFiles/glog.dir/src/signalhandler.cc.i
 
 src/ext/glog/CMakeFiles/glog.dir/src/signalhandler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glog.dir/src/signalhandler.cc.s"
-	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/signalhandler.cc -o CMakeFiles/glog.dir/src/signalhandler.cc.s
+	cd /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/src/ext/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/ext/glog/src/signalhandler.cc -o CMakeFiles/glog.dir/src/signalhandler.cc.s
 
 # Object files for target glog
 glog_OBJECTS = \

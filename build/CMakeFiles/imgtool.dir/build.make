@@ -73,15 +73,15 @@ CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.o: CMakeFiles/imgtool.dir/flags.mak
 CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.o: /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/imgtool.cpp
 CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.o: CMakeFiles/imgtool.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.o -MF CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.o.d -o CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/imgtool.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.o -MF CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.o.d -o CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.o -c /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/imgtool.cpp
 
 CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/imgtool.cpp > CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/imgtool.cpp > CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.i
 
 CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/imgtool.cpp -o CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alicejung/Projects/ip-cal/code_repositories/bfp-pbrt/pbrt-v3/src/tools/imgtool.cpp -o CMakeFiles/imgtool.dir/src/tools/imgtool.cpp.s
 
 # Object files for target imgtool
 imgtool_OBJECTS = \
