@@ -168,22 +168,22 @@ int main(int argc, char *argv[]) {
         for (const std::string &f : filenames) pbrtParseFile(f);
     }
 
-
     //----------------------------------------------------------------
-    printf("\n\nhello\n");
-    std::vector<float> a{-1, 1.5, 1.75, 1.00805664062, -1.00805699825};
-    std::vector<float> b{-0.5, -1.5, 1.75, 0.00805664062, 1.00805699825};
-    BfpBlock<float, uint32_t> aBlock(a);
-    BfpBlock<float, uint32_t> bBlock(b);
-    BfpBlock<float, uint32_t> res = Add1D<float, uint32_t>(aBlock, bBlock);
-    aBlock.PrintBitwise();
-    bBlock.PrintBitwise();
-    res.PrintBitwise();
+    hello();
 
-    std::cout << "-------------compare-------------" << std::endl;
-    for (int i = 0; i < a.size(); i++) {
-        std::cout << i << ": " << a[i] + b[i] << std::endl;
-    }
+    // std::vector<float> a{-1, 1.5, 1.75, 1.00805664062, -1.00805699825};
+    // std::vector<float> b{-0.5, -1.5, 1.75, 0.00805664062, 1.00805699825};
+    // BfpBlock<float, uint32_t> aBlock(a);
+    // BfpBlock<float, uint32_t> bBlock(b);
+    // BfpBlock<float, uint32_t> res = Add1D<float, uint32_t>(aBlock, bBlock);
+    // aBlock.PrintBitwise();
+    // bBlock.PrintBitwise();
+    // res.PrintBitwise();
+
+    // std::cout << "-------------compare-------------" << std::endl;
+    // for (int i = 0; i < a.size(); i++) {
+    //     std::cout << i << ": " << a[i] + b[i] << std::endl;
+    // }
     //----------------------------------------------------------------
 
     pbrtCleanup();

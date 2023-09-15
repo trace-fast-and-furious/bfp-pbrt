@@ -1,18 +1,17 @@
 #include "bfpblock.h"
 
-// #include <stdint.h>
+#include <stdint.h>
 
-// #include <cmath>
+#include <cmath>
 #include <iostream>
-// #include <stdexcept>
-// #include <string>
-// #include <vector>
+#include <stdexcept>
+#include <string>
+#include <vector>
 
-// #include "bfpnum.h"
-// #include "bfputility.h"
+#include "bfpnum.h"
+#include "bfputility.h"
 
-void hello(void) { std::cout << "hello" << std::endl; }
-// namespace pbrt {
+namespace pbrt {
 /* block formatting */
 template <class F, class I>
 BfpBlock<F, I>::BfpBlock(std::vector<F> x) {
