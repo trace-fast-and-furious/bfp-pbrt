@@ -1,12 +1,7 @@
 #ifndef PBRT_BFP_BFPBLOCK_H
 #define PBRT_BFP_BFPBLOCK_H
 
-#include <stdint.h>
-
-#include <vector>
-
 #include "bfpnum.h"
-#include "bfputility.h"
 
 namespace pbrt
 {
@@ -46,6 +41,8 @@ namespace pbrt
 
         /* print functions */
         void PrintBitwise();
+
+        std::vector<double> ToFloatingPoint();
 
     public:
         uint16_t commonExp;

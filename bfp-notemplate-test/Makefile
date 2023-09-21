@@ -1,7 +1,7 @@
 CC=g++
 
-main.out: main.cpp bfpnum.cpp bfputility.cpp
-	$(CC) -std=c++17 -o main.out main.cpp bfpnum.cpp bfputility.cpp
+main.out: main.cpp bfputility.cpp bfpnum.cpp bfpblock.cpp
+	$(CC)  -std=c++11 -o main.out main.cpp bfputility.cpp bfpnum.cpp bfpblock.cpp
 	./main.out
 
 clean:

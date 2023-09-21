@@ -1,9 +1,4 @@
-#include "./bfpnum.h"
-
-#include <stdint.h>
-#include <string>
-
-#include "bfputility.h"
+#include "bfpnum.h"
 
 namespace pbrt
 {
@@ -25,8 +20,8 @@ namespace pbrt
     BfpNum::BfpNum(uint16_t s, uint16_t e, uint64_t m)
     {
         sign = s;
-        exp = e - BFP_BIAS + 1023;
-        mant = m;
+        exp = e - BFP_BIAS + DOUBLE_BIAS;
+        mant = m << (DOUBLE_MANTISSA_LENGTH - BFP_MANTISSA_LENGTH); //implicit 1 included!
         if (exp && mant)
         {
             while (!(mant & DOUBLE_IMPLICIT_1))

@@ -1,23 +1,12 @@
 #include "bfpblock.h"
 
-#include <stdint.h>
-
-#include <cmath>
-#include <iostream>
-#include <stdexcept>
-#include <string>
-#include <vector>
-
-#include "bfpnum.h"
-#include "bfputility.h"
-
 namespace pbrt
 {
     /* block formatting */
     BfpBlock::BfpBlock(std::vector<double> x)
     {
         // initialize some member variables
-        blockSize = (uint32_t)x.size();
+        blockSize = x.size();
 
         // check customized mantissa/exponent length is possible
         if (BFP_MANTISSA_LENGTH > 52)
@@ -30,11 +19,11 @@ namespace pbrt
         // block formatting
         std::vector<uint16_t> exps;
 
-        for (int i = 0; i < x.size(); i++)
+        for (int i = 0; i < blockSize; i++)
         {
             // customize mantissa/exponent length
             BfpNum *temp = new BfpNum(x[i]);
-            exps.push_back(temp->exp >> (DOUBLE_EXPONENT_LENGTH - BFP_EXPONENT_LENGTH));
+            exps.push_back(temp->exp - DOUBLE_BIAS + BFP_BIAS);
             mant.push_back(temp->mant >> (DOUBLE_MANTISSA_LENGTH - BFP_MANTISSA_LENGTH)); // implicit 1 already added in BfpNum
             sign.push_back(temp->sign);
             delete temp;
@@ -42,7 +31,7 @@ namespace pbrt
 
         // find and save common exponent
         uint16_t max_exp = 0;
-        for (int i = 0; i < x.size(); i++)
+        for (int i = 0; i < blockSize; i++)
         {
             if (exps[i] > max_exp)
                 max_exp = exps[i];
@@ -50,7 +39,7 @@ namespace pbrt
         commonExp = max_exp;
 
         // align mantissas
-        for (int i = 0; i < x.size(); i++)
+        for (int i = 0; i < blockSize; i++)
             mant[i] >>= (max_exp - exps[i]);
     }
 
@@ -414,6 +403,10 @@ namespace pbrt
         // get a's sign, exponent, mantissa bits
         BfpNum s(scalar);
 
+        // adjust exponent, mantissa into bfp precision
+        s.exp = s.exp - DOUBLE_BIAS + BFP_BIAS;
+        s.mant >>= (DOUBLE_MANTISSA_LENGTH - BFP_MANTISSA_LENGTH);
+
         // decide common exponent
         bool flag = s.exp >= commonExp ? 1 : 0;
         res.commonExp = flag ? s.exp : commonExp;
@@ -489,14 +482,14 @@ namespace pbrt
     BfpBlock BfpBlock::SubScalar1D(double scalar, bool isScalarFirst)
     {
         BfpBlock res;
-        if (isScalarFirst)
+        if (isScalarFirst) // scalar - bfp
         {
             for (int i = 0; i < blockSize; i++)
                 sign[i] ^= (uint16_t)1;
 
             res = AddScalar1D(scalar);
         }
-        else
+        else // bfp - scalar
         {
             res = AddScalar1D(-scalar);
         }
@@ -510,6 +503,10 @@ namespace pbrt
 
         // get a's sign, exponent, mantissa bits
         BfpNum s(scalar);
+
+        // adjust exponent, mantissa into bfp precision
+        s.exp = s.exp - DOUBLE_BIAS + BFP_BIAS;
+        s.mant >>= (DOUBLE_MANTISSA_LENGTH - BFP_MANTISSA_LENGTH);
 
         // set blockSize
         res.blockSize = blockSize;
@@ -641,10 +638,21 @@ namespace pbrt
         for (int i = 0; i < blockSize; i++)
         {
             BfpNum b(sign[i], commonExp, mant[i]);
-            std::cout << i << ": " << sign[i] << "\t" << BitStringWithSpace(mant[i], FIXED_POINT_LENGTH + 1);
+            std::cout << i << ": " << sign[i] << "\t" << BitStringWithSpace(mant[i], FIXED_POINT_LENGTH);
             std::cout << "\t(" << b.ToFloatingPoint() << ")" << std::endl;
         }
         std::cout << std::endl;
+    }
+
+    std::vector<double> BfpBlock::ToFloatingPoint()
+    {
+        std::vector<double> res;
+        for (int i = 0; i < blockSize; i++)
+        {
+            BfpNum b(sign[i], commonExp, mant[i]);
+            res.push_back(b.ToFloatingPoint());
+        }
+        return res;
     }
 
 } // namespace pbrt
