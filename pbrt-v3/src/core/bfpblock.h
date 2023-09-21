@@ -1,99 +1,55 @@
 #ifndef PBRT_BFP_BFPBLOCK_H
 #define PBRT_BFP_BFPBLOCK_H
 
-void hello(void);
-// #include <stdint.h>
+#include "bfpnum.h"
 
-// #include <vector>
+namespace pbrt {
+class BfpBlock {
+  public:
+    BfpBlock() : commonExp(0), blockSize(0){};
+    BfpBlock(std::vector<double> x);
 
-// #include "bfpnum.h"
-// #include "bfputility.h"
+    /*element-wise matrix arithmetic functions*/
+    BfpBlock Add1D(BfpBlock b);
+    BfpBlock Sub1D(BfpBlock b);
+    BfpBlock Mult1D(BfpBlock b);
+    BfpBlock Div1D(BfpBlock b);
+    BfpBlock Add2D(BfpBlock b);
+    BfpBlock Sub2D(BfpBlock b);
+    BfpBlock Mult2D(BfpBlock b);
+    BfpBlock Div2D(BfpBlock b);
 
-// #define BFP_MANTISSA_LENGTH 23
-// #define FIXED_POINT_LENGTH 24
-// #define BFP_EXPONENT_LENGTH 8
-// #define BFP_BIAS (((uint16_t)1 << (BFP_EXPONENT_LENGTH - 1)) - (uint16_t)1)
+    /* scalar-matrix arithmetic functions*/
+    BfpBlock AddScalar1D(double scalar);
+    BfpBlock SubScalar1D(double scalar, bool isScalarFirst);
+    BfpBlock MultScalar1D(double scalar);
+    BfpBlock DivScalar1D(double scalar, bool isScalarFirst);
+    BfpBlock AddScalar2D(double scalar);
+    BfpBlock SubScalar2D(double scalar);
+    BfpBlock MultScalar2D(double scalar);
+    BfpBlock DivScalar2D(double scalar);
 
-// namespace pbrt {
-// template <class F, class I>  // F: float/double, I: uint32_t/uint64_t
-// class BfpBlock {
-//   public:
-//     BfpBlock() : commonExp(0), blockSize(0){};
-//     BfpBlock(std::vector<F> x);
+    /* Matrix Multiplication */
+    BfpBlock MatrixMult(BfpBlock b);
 
-//     void PrintBitwise();
+    /* compare functions */
+    BfpNum Max();
+    BfpNum Min();
+    void Swap(BfpBlock *b);
 
-//   public:
-//     uint16_t commonExp;
-//     std::vector<uint16_t> sign;
-//     std::vector<I> mant;  // unsigned fixed point Q 1.23 or Q. 1.52 or custom
+    /* print functions */
+    void PrintBitwise();
 
-//     uint32_t blockSize;
-// };
+    std::vector<double> ToFloatingPoint();
 
-// /*element-wise matrix arithmetic functions*/
-// template <class F, class I>
-// BfpBlock<F, I> Add1D(BfpBlock<F, I> a, BfpBlock<F, I> b);
+  public:
+    uint16_t commonExp;
+    std::vector<uint16_t> sign;
+    std::vector<uint64_t>
+        mant;  // unsigned fixed point Q 1.23 or Q. 1.52 or custom
 
-// template <class F, class I>
-// BfpBlock<F, I> Sub1D(BfpBlock<F, I> a, BfpBlock<F, I> b);
+    uint32_t blockSize;
+};
 
-// template <class F, class I>
-// BfpBlock<F, I> Mult1D(BfpBlock<F, I> a, BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpBlock<F, I> Div1D(BfpBlock<F, I> a, BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpBlock<F, I> Add2D(BfpBlock<F, I> a, BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpBlock<F, I> Sub2D(BfpBlock<F, I> a, BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpBlock<F, I> Mult2D(BfpBlock<F, I> a, BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpBlock<F, I> Div2D(BfpBlock<F, I> a, BfpBlock<F, I> b);
-
-// /* scalar-matrix arithmetic functions*/
-// template <class F, class I>
-// BfpBlock<F, I> AddScalar1D(I aInt, BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpBlock<F, I> SubScalar1D(I aInt, BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpBlock<F, I> MultScalar1D(I aInt, BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpBlock<F, I> DivScalar1D(I aInt, BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpBlock<F, I> AddScalar2D(I aInt, BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpBlock<F, I> SubScalar2D(I aInt, BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpBlock<F, I> MultScalar2D(I aInt, BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpBlock<F, I> DivScalar2D(I aInt, BfpBlock<F, I> b);
-
-// /* Matrix Multiplication */
-// template <class F, class I>
-// BfpBlock<F, I> MatrixMult(BfpBlock<F, I> a, BfpBlock<F, I> b);
-
-// /* compare functions */
-// template <class F, class I>
-// BfpNum<F, I> Max(BfpBlock<F, I> b);
-
-// template <class F, class I>
-// BfpNum<F, I> Min(BfpBlock<F, I> b);
-
-// template <class F, class I>
-// void Swap(BfpBlock<F, I> *a, BfpBlock<F, I> *b);
-// }  // namespace pbrt
-
+}  // namespace pbrt
 #endif
