@@ -3,10 +3,13 @@
 namespace pbrt
 {
     /* block formatting */
-    BfpBlock::BfpBlock(std::vector<double> x)
+    BfpBlock::BfpBlock(std::vector<std::vector<double>> x)
     {
         // initialize some member variables
-        blockSize = x.size();
+        m = x.size();
+        n = x[0].size();
+        sign.resize(m, std::vector<uint16_t>(n, 0));
+        mant.resize(m, std::vector<uint64_t>(n, 0));
 
         // check customized mantissa/exponent length is possible
         if (BFP_MANTISSA_LENGTH > 52)
@@ -17,46 +20,56 @@ namespace pbrt
                 "error: BFP_EXPONENT_LENGTH is too long for double!");
 
         // block formatting
-        std::vector<uint16_t> exps;
+        std::vector<std::vector<uint16_t>> exps(m, std::vector<uint16_t>(n, 0));
 
-        for (int i = 0; i < blockSize; i++)
+        for (int i = 0; i < m; i++)
         {
-            // customize mantissa/exponent length
-            BfpNum *temp = new BfpNum(x[i]);
-            exps.push_back(temp->exp - DOUBLE_BIAS + BFP_BIAS);
-            mant.push_back(temp->mant >> (DOUBLE_MANTISSA_LENGTH - BFP_MANTISSA_LENGTH)); // implicit 1 already added in BfpNum
-            sign.push_back(temp->sign);
-            delete temp;
+            for (int j = 0; j < n; j++)
+            { // customize mantissa/exponent length
+                BfpNum *temp = new BfpNum(x[i][j]);
+                exps[i][j] = temp->exp - DOUBLE_BIAS + BFP_BIAS;
+                mant[i][j] = temp->mant >> (DOUBLE_MANTISSA_LENGTH - BFP_MANTISSA_LENGTH); // implicit 1 already added in BfpNum
+                sign[i][j] = temp->sign;
+                delete temp;
+            }
         }
 
         // find and save common exponent
         uint16_t max_exp = 0;
-        for (int i = 0; i < blockSize; i++)
+        for (int i = 0; i < m; i++)
         {
-            if (exps[i] > max_exp)
-                max_exp = exps[i];
+            for (int j = 0; j < n; j++)
+            {
+                max_exp = std::max(exps[i][j], max_exp);
+            }
         }
         commonExp = max_exp;
 
         // align mantissas
-        for (int i = 0; i < blockSize; i++)
-            mant[i] >>= (max_exp - exps[i]);
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                mant[i][j] >>= (max_exp - exps[i][j]);
+            }
+        }
     }
 
     /* matrix element-wise arithmetic functions */
     // this block: a, other block: b
-    BfpBlock BfpBlock::Add1D(BfpBlock b)
+    BfpBlock BfpBlock::Add(BfpBlock b)
     {
         uint16_t carry = 0;
         BfpBlock res;
 
         // check if both blocks have same size
-        if (blockSize != b.blockSize)
+        if (m != b.m || n != b.n)
             throw std::invalid_argument(
-                "error[Add1D]: two blocks are not the same size");
+                "error[Add]: two blocks are not the same size");
 
         // set blockSize
-        res.blockSize = blockSize;
+        res.m = m;
+        res.n = n;
 
         // decide common exponent
         bool flag = commonExp >= b.commonExp ? 1 : 0;
@@ -67,316 +80,189 @@ namespace pbrt
         int64_t tempImplicit1 = (int64_t)1 << 61;
         int64_t tempShiftNum = 61 - BFP_MANTISSA_LENGTH; // sign + carry + implicit1 + mantissa + tempShiftNum = 64
 
-        for (int i = 0; i < blockSize; i++)
+        for (int i = 0; i < m; i++)
         {
-            int64_t tempRes = (int64_t)0;
-            int64_t tempA = mant[i] << tempShiftNum;
-            int64_t tempB = b.mant[i] << tempShiftNum;
-
-            // align mantissas
-            if (flag) // if this block(a)'s common exponent is bigger
-                tempB >>= diff;
-            else
-                tempA >>= diff;
-
-            // add mantissa
-            // 1. conversion to 2's complement
-            tempA = sign[i] ? ~tempA + 1 : tempA;
-            tempB = b.sign[i] ? ~tempB + 1 : tempB;
-
-            // 2. add mantissas
-            tempRes = tempA + tempB;
-
-            // std::cout << i << std::endl;
-            // std::cout << "   " << BitString<uint64_t>(tempA, 64) << "\t" <<
-            // BitString<uint32_t>(mant[i], 24) << std::endl; std::cout << "+  "
-            // << BitString<uint64_t>(tempB, 64) << "\t" <<
-            // BitString<uint32_t>(b.mant[i], 24) << std::endl; std::cout <<
-            // "----------------------------" << std::endl; std::cout << "   " <<
-            // BitString<uint64_t>(tempRes, 64) << std::endl
-            //           << std::endl;
-
-            // 3. convert to signed magnitude if negative
-            if (tempRes & 0x8000000000000000)
+            std::vector<uint16_t> sign_temp;
+            std::vector<uint64_t> mant_temp;
+            for (int j = 0; j < n; j++)
             {
-                tempRes = ~tempRes + 1;
-                res.sign.push_back((uint16_t)1);
+                int64_t tempRes = (int64_t)0;
+                int64_t tempA = mant[i][j] << tempShiftNum;
+                int64_t tempB = b.mant[i][j] << tempShiftNum;
+
+                // align mantissas
+                if (flag) // if this block(a)'s common exponent is bigger
+                    tempB >>= diff;
+                else
+                    tempA >>= diff;
+
+                // add mantissa
+                // 1. conversion to 2's complement
+                tempA = sign[i][j] ? ~tempA + 1 : tempA;
+                tempB = b.sign[i][j] ? ~tempB + 1 : tempB;
+
+                // 2. add mantissas
+                tempRes = tempA + tempB;
+
+                // 3. convert to signed magnitude if negative
+                if (tempRes & 0x8000000000000000)
+                {
+                    tempRes = ~tempRes + 1;
+                    sign_temp.push_back((uint16_t)1);
+                }
+                else
+                {
+                    sign_temp.push_back((uint16_t)0);
+                }
+
+                // 4. rounding to nearest even
+                tempRes = RoundToNearestEven(tempRes, tempShiftNum);
+
+                // 5. check carry
+                carry = std::max(carry, (uint16_t)(tempRes >> (int64_t)62));
+
+                // 6. store result
+                mant_temp.push_back((uint64_t)(tempRes >> tempShiftNum));
             }
-            else
-            {
-                res.sign.push_back((uint16_t)0);
-            }
-
-            // 4. rounding to nearest even
-            tempRes = RoundToNearestEven(tempRes, tempShiftNum);
-
-            // 5. check carry
-            carry = std::max(carry, (uint16_t)(tempRes >> (int64_t)62));
-
-            // 6. store result
-            res.mant.push_back((uint64_t)(tempRes >> tempShiftNum));
+            res.sign.push_back(sign_temp);
+            res.mant.push_back(mant_temp);
         }
 
         if (carry)
         {
             res.commonExp += carry;
-            for (int i = 0; i < blockSize; i++)
+            for (int i = 0; i < m; i++)
             {
-                res.mant[i] >>= carry;
+                for (int j = 0; j < n; j++)
+                {
+                    res.mant[i][j] >>= carry;
+                }
             }
         }
 
         return res;
     }
 
-    BfpBlock BfpBlock::Sub1D(BfpBlock b)
+    BfpBlock BfpBlock::Sub(BfpBlock b)
     {
-        for (int i = 0; i < blockSize; i++)
-            b.sign[i] ^= (uint16_t)1;
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                b.sign[i][j] ^= (uint16_t)1;
+            }
+        }
 
-        BfpBlock res = Add1D(b);
+        BfpBlock res = Add(b);
         return res;
     }
 
-    BfpBlock BfpBlock::Mult1D(BfpBlock b)
+    BfpBlock BfpBlock::Mult(BfpBlock b)
     {
         uint16_t carry = 0;
         BfpBlock res;
 
         // check if both blocks have same size
-        if (blockSize != b.blockSize)
-        {
+        if (m != b.m || n != b.n)
             throw std::invalid_argument(
-                "error[Mult1D]: two blocks are not the same size");
-        }
+                "error[Mult]: two blocks are not the same size");
 
         // set blockSize
-        res.blockSize = blockSize;
+        res.m = m;
+        res.n = n;
 
         // decide common exponent
         res.commonExp = commonExp + b.commonExp - BFP_BIAS;
 
-        for (int i = 0; i < blockSize; i++)
+        for (int i = 0; i < m; i++)
         {
-            // 1. multiply
-            uint64_t tempRes = mant[i] * b.mant[i];
+            std::vector<uint16_t> sign_temp;
+            std::vector<uint64_t> mant_temp;
 
-            // 2. set sign
-            res.sign.push_back(sign[i] ^ b.sign[i]);
+            for (int j = 0; j < n; j++)
+            {
+                // 1. multiply
+                uint64_t tempRes = mant[i][j] * b.mant[i][j];
 
-            // 3. rounding to nearest even
-            tempRes = RoundToNearestEven(tempRes, BFP_MANTISSA_LENGTH);
+                // 2. set sign
+                sign_temp.push_back(sign[i][j] ^ b.sign[i][j]);
 
-            // 4. check carry
-            carry = std::max(carry, (uint16_t)(tempRes >> (uint64_t)(BFP_MANTISSA_LENGTH + BFP_MANTISSA_LENGTH + 1)));
+                // 3. rounding to nearest even
+                tempRes = RoundToNearestEven(tempRes, BFP_MANTISSA_LENGTH);
 
-            // 5. store result
-            res.mant.push_back(tempRes >> BFP_MANTISSA_LENGTH);
+                // 4. check carry
+                carry = std::max(carry, (uint16_t)(tempRes >> (uint64_t)(BFP_MANTISSA_LENGTH + BFP_MANTISSA_LENGTH + 1)));
+
+                // 5. store result
+                mant_temp.push_back(tempRes >> BFP_MANTISSA_LENGTH);
+            }
+            res.sign.push_back(sign_temp);
+            res.mant.push_back(mant_temp);
         }
 
         if (carry)
         {
             res.commonExp += carry;
-            for (int i = 0; i < blockSize; i++)
+            for (int i = 0; i < m; i++)
             {
-                res.mant[i] >>= carry;
+                for (int j = 0; j < n; j++)
+                {
+                    res.mant[i][j] >>= carry;
+                }
             }
         }
 
         return res;
     }
 
-    BfpBlock BfpBlock::Div1D(BfpBlock b)
-    {
-        uint16_t carry = 0;
-        BfpBlock res;
-
-        // check if both blocks have same size
-        if (blockSize != b.blockSize)
-            throw std::invalid_argument(
-                "error[Div1D]: two blocks are not the same size");
-
-        // set blockSize
-        res.blockSize = blockSize;
-
-        // decide common exponent
-        res.commonExp = commonExp - b.commonExp + BFP_BIAS;
-
-        // save mantissas in long long so that there is no data loss during shifting
-        uint64_t tempShiftNum = 61 - BFP_MANTISSA_LENGTH; // sign + carry + implicit1 + mantissa + tempShiftNum = 64
-        uint64_t tempImplicit1 = (uint64_t)1 << 61;
-        for (int i = 0; i < blockSize; i++)
-        {
-            // 1. divide
-            uint64_t tempA = mant[i] << tempShiftNum;
-            uint64_t tempB = b.mant[i];
-            uint64_t tempRes = tempA / tempB;
-
-            // std::cout << "    " << BitStringWithSpace<int64_t>(tempA, 64)
-            //           << std::endl;
-            // std::cout << "/   " << BitStringWithSpace<int64_t>(tempB, 64)
-            //           << std::endl;
-            // std::cout << "------------------" << std::endl;
-            // std::cout << "    " << BitStringWithSpace<int64_t>(tempRes, 64)
-            //           << std::endl
-            //           << std::endl;
-
-            // 2. set sign
-            res.sign.push_back(sign[i] ^ b.sign[i]);
-
-            // 3. rounding to nearest even
-            tempRes = RoundToNearestEven(tempRes, BFP_MANTISSA_LENGTH);
-
-            // 4. check carry
-            carry = std::max(carry, (uint16_t)(tempRes >> (uint64_t)(61 - BFP_MANTISSA_LENGTH)));
-
-            // std::cout << carry << std::endl;
-
-            // 5. store result
-            res.mant.push_back(tempRes >> (uint64_t)(61 - BFP_MANTISSA_LENGTH - BFP_MANTISSA_LENGTH));
-        }
-
-        if (carry)
-        {
-            res.commonExp += carry;
-            for (int i = 0; i < res.blockSize; i++)
-            {
-                res.mant[i] >>= (uint64_t)carry;
-            }
-        }
-
-        return res;
-    }
-
-    // BfpBlock Add2D(BfpBlock a, BfpBlock b)
+    // BfpBlock BfpBlock::Div1D(BfpBlock b)
     // {
-    //     uint16_t carry = false;
+    //     uint16_t carry = 0;
+    //     BfpBlock res;
 
     //     // check if both blocks have same size
     //     if (blockSize != b.blockSize)
     //         throw std::invalid_argument(
-    //             "error[Add1D]: two blocks are not the same size");
+    //             "error[Div1D]: two blocks are not the same size");
 
     //     // set blockSize
-    //     BfpBlock res;
     //     res.blockSize = blockSize;
 
     //     // decide common exponent
-    //     bool flag = commonExp >= b.commonExp ? 1 : 0;
-    //     res.commonExp = flag ? commonExp : b.commonExp;
-    //     int diff = std::abs(commonExp - b.commonExp);
+    //     res.commonExp = commonExp - b.commonExp + BFP_BIAS;
 
+    //     // save mantissas in long long so that there is no data loss during shifting
+    //     uint64_t tempShiftNum = 61 - BFP_MANTISSA_LENGTH; // sign + carry + implicit1 + mantissa + tempShiftNum = 64
+    //     uint64_t tempImplicit1 = (uint64_t)1 << 61;
     //     for (int i = 0; i < blockSize; i++)
     //     {
-    //         // save mantissas in long long so that there is no data loss during
-    //         // shifting
-    //         int tempShiftNum =
-    //             61 - BFP_MANTISSA_LENGTH; // sign + carry + implicit1 + mantissa +
-    //                                       // tempShiftNum = 64
-    //         int64_t implicit1 = (int64_t)1 << 61;
-    //         int64_t tempRes = (int64_t)0;
-    //         int64_t tempA = (int64_t)mant[i] << tempShiftNum;
-    //         int64_t tempB = (int64_t)b.mant[i] << tempShiftNum;
+    //         // 1. divide
+    //         uint64_t tempA = mant[i] << tempShiftNum;
+    //         uint64_t tempB = b.mant[i];
+    //         uint64_t tempRes = tempA / tempB;
 
-    //         // align mantissas
-    //         if (flag) // if a's common exponent is bigger
-    //             tempB >>= diff;
-    //         else
-    //             tempA >>= diff;
-
-    //         // add mantissa
-    //         // 1. conversion to 2's complement
-    //         tempA = sign[i] ? ~tempA + 1 : tempA;
-    //         tempB = b.sign[i] ? ~tempB + 1 : tempB;
-
-    //         // 2. add mantissas
-    //         tempRes = tempA + tempB;
-
-    //         // std::cout << i << std::endl;
-    //         // std::cout << "   " << BitString<uint64_t>(tempA, 64) << "\t" <<
-    //         // BitString<uint32_t>(a.mant[i], 24) << std::endl; std::cout << "+  "
-    //         // << BitString<uint64_t>(tempB, 64) << "\t" <<
-    //         // BitString<uint32_t>(b.mant[i], 24) << std::endl; std::cout <<
-    //         // "----------------------------" << std::endl; std::cout << "   " <<
-    //         // BitString<uint64_t>(tempRes, 64) << std::endl
+    //         // std::cout << "    " << BitStringWithSpace<int64_t>(tempA, 64)
+    //         //           << std::endl;
+    //         // std::cout << "/   " << BitStringWithSpace<int64_t>(tempB, 64)
+    //         //           << std::endl;
+    //         // std::cout << "------------------" << std::endl;
+    //         // std::cout << "    " << BitStringWithSpace<int64_t>(tempRes, 64)
+    //         //           << std::endl
     //         //           << std::endl;
 
-    //         // 3. convert to signed magnitude if negative
-    //         if (tempRes & 0x8000000000000000)
-    //         {
-    //             tempRes = ~tempRes + 1;
-    //             res.sign.push_back((uint16_t)1);
-    //         }
-    //         else
-    //         {
-    //             res.sign.push_back((uint16_t)0);
-    //         }
-
-    //         // 4. rounding to nearest even
-    //         tempRes = RoundToNearestEven(tempRes, tempShiftNum);
-
-    //         // 5. check carry
-    //         carry = std::max(carry, (uint16_t)(tempRes >> (int64_t)62));
-
-    //         // 6. store result
-    //         res.mant.push_back((I)(tempRes >> tempShiftNum));
-    //     }
-
-    //     if (carry)
-    //     {
-    //         res.commonExp += carry;
-    //         for (int i = 0; i < res.blockSize; i++)
-    //         {
-    //             res.mant[i] >>= carry;
-    //         }
-    //     }
-
-    //     return res;
-    // }
-
-    // BfpBlock Sub2D(BfpBlock a, BfpBlock b)
-    // {
-    //     for (int i = 0; i < b.blockSize; i++)
-    //         b.sign[i] ^= (uint16_t)1;
-
-    //     BfpBlock res = Add1D<F, I>(a, b);
-    //     return res;
-    // }
-
-    // BfpBlock Mult2D(BfpBlock a, BfpBlock b)
-    // {
-    //     uint16_t carry = false;
-
-    //     // check if both blocks have same size
-    //     if (a.blockSize != b.blockSize)
-    //         throw std::invalid_argument(
-    //             "error[Add1D]: two blocks are not the same size");
-
-    //     // set blockSize
-    //     BfpBlock res;
-    //     res.blockSize = a.blockSize;
-
-    //     // decide common exponent
-    //     res.commonExp = a.commonExp + b.commonExp - BFP_BIAS;
-
-    //     for (int i = 0; i < a.blockSize; i++)
-    //     {
-    //         // 1. multiply
-    //         int64_t tempRes = (int64_t)a.mant[i] * (int64_t)b.mant[i];
-
     //         // 2. set sign
-    //         res.sign.push_back(a.sign[i] ^ b.sign[i]);
+    //         res.sign.push_back(sign[i] ^ b.sign[i]);
 
     //         // 3. rounding to nearest even
     //         tempRes = RoundToNearestEven(tempRes, BFP_MANTISSA_LENGTH);
 
     //         // 4. check carry
-    //         carry = std::max(
-    //             carry, (uint16_t)(tempRes >> (int64_t)(BFP_MANTISSA_LENGTH +
-    //                                                    BFP_MANTISSA_LENGTH + 1)));
+    //         carry = std::max(carry, (uint16_t)(tempRes >> (uint64_t)(61 - BFP_MANTISSA_LENGTH)));
+
+    //         // std::cout << carry << std::endl;
 
     //         // 5. store result
-    //         res.mant.push_back((I)(tempRes >> BFP_MANTISSA_LENGTH));
+    //         res.mant.push_back(tempRes >> (uint64_t)(61 - BFP_MANTISSA_LENGTH - BFP_MANTISSA_LENGTH));
     //     }
 
     //     if (carry)
@@ -384,7 +270,7 @@ namespace pbrt
     //         res.commonExp += carry;
     //         for (int i = 0; i < res.blockSize; i++)
     //         {
-    //             res.mant[i] >>= carry;
+    //             res.mant[i] >>= (uint64_t)carry;
     //         }
     //     }
 
@@ -392,13 +278,14 @@ namespace pbrt
     // }
 
     /* scalar-matrix arithmetic functions*/
-    BfpBlock BfpBlock::AddScalar1D(double scalar)
+    BfpBlock BfpBlock::AddScalar(double scalar)
     {
         uint16_t carry = 0;
         BfpBlock res;
 
         // set blockSize
-        res.blockSize = blockSize;
+        res.m = m;
+        res.n = n;
 
         // get a's sign, exponent, mantissa bits
         BfpNum s(scalar);
@@ -416,87 +303,93 @@ namespace pbrt
         uint64_t tempImplicit1 = (uint64_t)1 << 61;
         uint64_t tempShiftNum = 61 - BFP_MANTISSA_LENGTH; // sign + carry + implicit1 + mantissa + tempShiftNum = 64
 
-        for (int i = 0; i < blockSize; i++)
+        for (int i = 0; i < m; i++)
         {
-            uint64_t tempRes = (uint64_t)0;
-            uint64_t tempS = s.mant << tempShiftNum;
-            uint64_t tempB = mant[i] << tempShiftNum;
-
-            // align mantissas
-            if (flag) // if a's common exponent is bigger
-                tempB >>= diff;
-            else
-                tempS >>= diff;
-
-            // add mantissa
-            // 1. conversion to 2's complement
-            tempS = s.sign ? ~tempS + 1 : tempS;
-            tempB = sign[i] ? ~tempB + 1 : tempB;
-
-            // 2. add mantissas
-            tempRes = tempS + tempB;
-
-            // std::cout << i << std::endl;
-            // std::cout << "   " << BitString<uint64_t>(tempA, 64) << "\t" <<
-            // BitString<uint32_t>(a.mant[i], 24) << std::endl; std::cout << "+  "
-            // << BitString<uint64_t>(tempB, 64) << "\t" <<
-            // BitString<uint32_t>(b.mant[i], 24) << std::endl; std::cout <<
-            // "----------------------------" << std::endl; std::cout << "   " <<
-            // BitString<uint64_t>(tempRes, 64) << std::endl
-            //           << std::endl;
-
-            // 3. convert to signed magnitude if negative
-            if (tempRes & 0x8000000000000000)
+            std::vector<uint16_t> sign_temp;
+            std::vector<uint64_t> mant_temp;
+            for (int j = 0; j < n; j++)
             {
-                tempRes = ~tempRes + 1;
-                res.sign.push_back((uint16_t)1);
+                uint64_t tempRes = (uint64_t)0;
+                uint64_t tempS = s.mant << tempShiftNum;
+                uint64_t tempB = mant[i][j] << tempShiftNum;
+
+                // align mantissas
+                if (flag) // if a's common exponent is bigger
+                    tempB >>= diff;
+                else
+                    tempS >>= diff;
+
+                // add mantissa
+                // 1. conversion to 2's complement
+                tempS = s.sign ? ~tempS + 1 : tempS;
+                tempB = sign[i][j] ? ~tempB + 1 : tempB;
+
+                // 2. add mantissas
+                tempRes = tempS + tempB;
+
+                // 3. convert to signed magnitude if negative
+                if (tempRes & 0x8000000000000000)
+                {
+                    tempRes = ~tempRes + 1;
+                    sign_temp.push_back((uint16_t)1);
+                }
+                else
+                {
+                    sign_temp.push_back((uint16_t)0);
+                }
+
+                // 4. rounding to nearest even
+                tempRes = RoundToNearestEven(tempRes, tempShiftNum);
+
+                // 5. check carry
+                carry = std::max(carry, (uint16_t)(tempRes >> (uint64_t)62));
+                // std::cout << carry << std::endl;
+
+                // 6. store result
+                mant_temp.push_back(tempRes >> tempShiftNum);
             }
-            else
-            {
-                res.sign.push_back((uint16_t)0);
-            }
-
-            // 4. rounding to nearest even
-            tempRes = RoundToNearestEven(tempRes, tempShiftNum);
-
-            // 5. check carry
-            carry = std::max(carry, (uint16_t)(tempRes >> (uint64_t)62));
-            // std::cout << carry << std::endl;
-
-            // 6. store result
-            res.mant.push_back(tempRes >> tempShiftNum);
+            res.sign.push_back(sign_temp);
+            res.mant.push_back(mant_temp);
         }
 
         if (carry)
         {
             res.commonExp += carry;
-            for (int i = 0; i < res.blockSize; i++)
+            for (int i = 0; i < m; i++)
             {
-                res.mant[i] >>= carry;
+                for (int j = 0; j < n; j++)
+                {
+                    res.mant[i][j] >>= carry;
+                }
             }
         }
 
         return res;
     }
 
-    BfpBlock BfpBlock::SubScalar1D(double scalar, bool isScalarFirst)
+    BfpBlock BfpBlock::SubScalar(double scalar, bool isScalarFirst)
     {
         BfpBlock res;
         if (isScalarFirst) // scalar - bfp
         {
-            for (int i = 0; i < blockSize; i++)
-                sign[i] ^= (uint16_t)1;
+            for (int i = 0; i < m; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    sign[i][j] ^= (uint16_t)1;
+                }
+            }
 
-            res = AddScalar1D(scalar);
+            res = AddScalar(scalar);
         }
         else // bfp - scalar
         {
-            res = AddScalar1D(-scalar);
+            res = AddScalar(-scalar);
         }
         return res;
     }
 
-    BfpBlock BfpBlock::MultScalar1D(double scalar)
+    BfpBlock BfpBlock::MultScalar(double scalar)
     {
         uint16_t carry = false;
         BfpBlock res;
@@ -509,35 +402,46 @@ namespace pbrt
         s.mant >>= (DOUBLE_MANTISSA_LENGTH - BFP_MANTISSA_LENGTH);
 
         // set blockSize
-        res.blockSize = blockSize;
+        res.m = m;
+        res.n = n;
 
         // decide common exponent
         res.commonExp = s.exp + commonExp - BFP_BIAS;
 
-        for (int i = 0; i < blockSize; i++)
+        for (int i = 0; i < m; i++)
         {
-            // 1. multiply
-            uint64_t tempRes = s.mant * mant[i];
+            std::vector<uint16_t> sign_temp;
+            std::vector<uint64_t> mant_temp;
+            for (int j = 0; j < n; j++)
+            {
+                // 1. multiply
+                uint64_t tempRes = s.mant * mant[i][j];
 
-            // 2. set sign
-            res.sign.push_back(s.sign ^ sign[i]);
+                // 2. set sign
+                sign_temp.push_back(s.sign ^ sign[i][j]);
 
-            // 3. rounding to nearest even
-            tempRes = RoundToNearestEven(tempRes, BFP_MANTISSA_LENGTH);
+                // 3. rounding to nearest even
+                tempRes = RoundToNearestEven(tempRes, BFP_MANTISSA_LENGTH);
 
-            // 4. check carry
-            carry = std::max(carry, (uint16_t)(tempRes >> (uint64_t)(BFP_MANTISSA_LENGTH + BFP_MANTISSA_LENGTH + 1)));
+                // 4. check carry
+                carry = std::max(carry, (uint16_t)(tempRes >> (uint64_t)(BFP_MANTISSA_LENGTH + BFP_MANTISSA_LENGTH + 1)));
 
-            // 5. store result
-            res.mant.push_back(tempRes >> BFP_MANTISSA_LENGTH);
+                // 5. store result
+                mant_temp.push_back(tempRes >> BFP_MANTISSA_LENGTH);
+            }
+            res.sign.push_back(sign_temp);
+            res.mant.push_back(mant_temp);
         }
 
         if (carry)
         {
             res.commonExp += carry;
-            for (int i = 0; i < res.blockSize; i++)
+            for (int i = 0; i < m; i++)
             {
-                res.mant[i] >>= carry;
+                for (int j = 0; j < n; j++)
+                {
+                    res.mant[i][j] >>= carry;
+                }
             }
         }
 
@@ -549,10 +453,13 @@ namespace pbrt
     {
         int64_t maxMant = 0x8000000000000000;
 
-        for (int i = 0; i < blockSize; i++)
+        for (int i = 0; i < m; i++)
         {
-            int64_t signedMant = sign[i] ? ~mant[i] + (int64_t)1 : mant[i];
-            maxMant = signedMant > maxMant ? signedMant : maxMant;
+            for (int j = 0; j < n; j++)
+            {
+                int64_t signedMant = sign[i][j] ? ~mant[i][j] + (int64_t)1 : mant[i][j];
+                maxMant = signedMant > maxMant ? signedMant : maxMant;
+            }
         }
 
         if (maxMant & (int64_t)1 << 63)
@@ -565,10 +472,13 @@ namespace pbrt
     {
         int64_t minMant = 0x7FFFFFFFFFFFFFFF;
 
-        for (int i = 0; i < blockSize; i++)
+        for (int i = 0; i < m; i++)
         {
-            int64_t signedMant = sign[i] ? ~(int64_t)mant[i] + (int64_t)1 : (int64_t)mant[i];
-            minMant = signedMant < minMant ? signedMant : minMant;
+            for (int j = 0; j < n; j++)
+            {
+                int64_t signedMant = sign[i][j] ? ~(int64_t)mant[i][j] + (int64_t)1 : (int64_t)mant[i][j];
+                minMant = signedMant < minMant ? signedMant : minMant;
+            }
         }
 
         if (minMant & (int64_t)1 << 63)
@@ -580,7 +490,8 @@ namespace pbrt
     void BfpBlock::Swap(BfpBlock *b)
     {
         // check if both blocks have same size
-        if (blockSize != b->blockSize)
+        // check if both blocks have same size
+        if (m != b->m || n != b->n)
             throw std::invalid_argument(
                 "error[Swap]: two blocks are not the same size");
 
@@ -589,9 +500,12 @@ namespace pbrt
         {
             // align mantissas so that mantissas corresponds to the bigger
             // common exponent
-            for (int i = 0; i < blockSize; i++)
+            for (int i = 0; i < m; i++)
             {
-                b->mant[i] >>= (commonExp - b->commonExp);
+                for (int j = 0; j < n; j++)
+                {
+                    b->mant[i][j] >>= (commonExp - b->commonExp);
+                }
             }
 
             // set smaller commonExp to the bigger commonExp
@@ -601,9 +515,12 @@ namespace pbrt
         {
             // align mantissas so that mantissas corresponds to the bigger
             // common exponent
-            for (int i = 0; i < blockSize; i++)
+            for (int i = 0; i < m; i++)
             {
-                mant[i] >>= (b->commonExp - commonExp);
+                for (int j = 0; j < n; j++)
+                {
+                    mant[i][j] >>= (b->commonExp - commonExp);
+                }
             }
 
             // set smaller commonExp to the bigger commonExp
@@ -611,20 +528,23 @@ namespace pbrt
         }
 
         // compare and swap (a: max block, b: min block)
-        for (int i = 0; i < blockSize; i++)
+        for (int i = 0; i < m; i++)
         {
-            int64_t signedAMant = sign[i] ? ~(int64_t)mant[i] + (int64_t)1 : (int64_t)mant[i];
-            int64_t signedBMant = b->sign[i] ? ~(int64_t)b->mant[i] + (int64_t)1 : (int64_t)b->mant[i];
-
-            if (signedBMant > signedAMant) // compare
+            for (int j = 0; j < n; j++)
             {
-                uint64_t mantTemp = b->mant[i]; // swap
-                b->mant[i] = mant[i];
-                mant[i] = mantTemp;
+                int64_t signedAMant = sign[i][j] ? ~(int64_t)mant[i][j] + (int64_t)1 : (int64_t)mant[i][j];
+                int64_t signedBMant = b->sign[i][j] ? ~(int64_t)b->mant[i][j] + (int64_t)1 : (int64_t)b->mant[i][j];
 
-                uint16_t signTemp = b->sign[i];
-                b->sign[i] = sign[i];
-                sign[i] = signTemp;
+                if (signedBMant > signedAMant) // compare
+                {
+                    uint64_t mantTemp = b->mant[i][j]; // swap
+                    b->mant[i][j] = mant[i][j];
+                    mant[i][j] = mantTemp;
+
+                    uint16_t signTemp = b->sign[i][j];
+                    b->sign[i][j] = sign[i][j];
+                    sign[i][j] = signTemp;
+                }
             }
         }
     }
@@ -633,24 +553,52 @@ namespace pbrt
     void BfpBlock::PrintBitwise()
     {
         std::cout << "--------------BFP block-------------" << std::endl;
-        std::cout << "N: " << blockSize << std::endl;
+        std::cout << "MxN:\t" << m << "x" << n << std::endl;
         std::cout << "commonExp: " << BitString(commonExp, BFP_EXPONENT_LENGTH) << std::endl;
-        for (int i = 0; i < blockSize; i++)
+        for (int i = 0; i < m; i++)
         {
-            BfpNum b(sign[i], commonExp, mant[i]);
-            std::cout << i << ": " << sign[i] << "\t" << BitStringWithSpace(mant[i], FIXED_POINT_LENGTH);
-            std::cout << "\t(" << b.ToFloatingPoint() << ")" << std::endl;
+            std::cout << i << std::endl;
+            for (int j = 0; j < n; j++)
+            {
+                BfpNum b(sign[i][j], commonExp, mant[i][j]);
+                std::cout
+                    << "   | " << j << ":   " << sign[i][j] << "   " << BitStringWithSpace(mant[i][j], FIXED_POINT_LENGTH);
+                std::cout << "(" << b.ToFloatingPoint() << ")" << std::endl;
+            }
         }
         std::cout << std::endl;
     }
 
-    std::vector<double> BfpBlock::ToFloatingPoint()
+    void BfpBlock::PrintValue()
     {
-        std::vector<double> res;
-        for (int i = 0; i < blockSize; i++)
+        std::cout << "--------------BFP block-------------" << std::endl;
+        std::cout << "MxN:\t" << m << "x" << n << std::endl;
+        std::cout << "commonExp: " << BitString(commonExp, BFP_EXPONENT_LENGTH) << std::endl;
+        for (int i = 0; i < m; i++)
         {
-            BfpNum b(sign[i], commonExp, mant[i]);
-            res.push_back(b.ToFloatingPoint());
+            std::cout << i << std::endl;
+            for (int j = 0; j < n; j++)
+            {
+                BfpNum b(sign[i][j], commonExp, mant[i][j]);
+                std::cout
+                    << "   | " << b.ToFloatingPoint() << std::endl;
+            }
+        }
+        std::cout << std::endl;
+    }
+
+    std::vector<std::vector<double>> BfpBlock::ToFloatingPoint()
+    {
+        std::vector<std::vector<double>> res;
+        for (int i = 0; i < m; i++)
+        {
+            std::vector<double> row;
+            for (int j = 0; j < n; j++)
+            {
+                BfpNum b(sign[i][j], commonExp, mant[i][j]);
+                row.push_back(b.ToFloatingPoint());
+            }
+            res.push_back(row);
         }
         return res;
     }

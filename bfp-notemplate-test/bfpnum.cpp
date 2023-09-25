@@ -21,7 +21,7 @@ namespace pbrt
     {
         sign = s;
         exp = e - BFP_BIAS + DOUBLE_BIAS;
-        mant = m << (DOUBLE_MANTISSA_LENGTH - BFP_MANTISSA_LENGTH); //implicit 1 included!
+        mant = m << (DOUBLE_MANTISSA_LENGTH - BFP_MANTISSA_LENGTH); // implicit 1 included!
         if (exp && mant)
         {
             while (!(mant & DOUBLE_IMPLICIT_1))
@@ -50,8 +50,8 @@ namespace pbrt
 
     void BfpNum::PrintBitwise()
     {
-        std::cout << "-----------BfpNum-----------" << std::endl;
-        std::cout << BitString(sign, 1) << " " << BitString(exp, 11) << " " << BitStringWithSpace(mant, 53) << std::endl;
+        std::cout << "(BfpNum) " ;
+        std::cout << BitString(sign, 1) << "   " << BitString(exp, 11) << "   " << BitStringWithSpace(mant, 53) << std::endl;
     }
 
     void BfpNum::PrintValue()

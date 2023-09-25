@@ -8,6 +8,7 @@
 #include <stdexcept>
 #include <string>
 #include <vector>
+#include <iomanip>
 
 #define BFP_MANTISSA_LENGTH 23
 #define FIXED_POINT_LENGTH 24
