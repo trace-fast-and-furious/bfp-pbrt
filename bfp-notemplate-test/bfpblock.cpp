@@ -61,6 +61,8 @@ namespace pbrt
     {
         uint16_t carry = 0;
         BfpBlock res;
+        res.sign.resize(m, std::vector<uint16_t>(n, 0));
+        res.mant.resize(m, std::vector<uint64_t>(n, 0));
 
         // check if both blocks have same size
         if (m != b.m || n != b.n)
@@ -82,8 +84,6 @@ namespace pbrt
 
         for (int i = 0; i < m; i++)
         {
-            std::vector<uint16_t> sign_temp;
-            std::vector<uint64_t> mant_temp;
             for (int j = 0; j < n; j++)
             {
                 int64_t tempRes = (int64_t)0;
@@ -108,11 +108,11 @@ namespace pbrt
                 if (tempRes & 0x8000000000000000)
                 {
                     tempRes = ~tempRes + 1;
-                    sign_temp.push_back((uint16_t)1);
+                    res.sign[i][j] = (uint16_t)1;
                 }
                 else
                 {
-                    sign_temp.push_back((uint16_t)0);
+                    res.sign[i][j] = (uint16_t)0;
                 }
 
                 // 4. rounding to nearest even
@@ -122,10 +122,8 @@ namespace pbrt
                 carry = std::max(carry, (uint16_t)(tempRes >> (int64_t)62));
 
                 // 6. store result
-                mant_temp.push_back((uint64_t)(tempRes >> tempShiftNum));
+                res.mant[i][j] = (uint64_t)(tempRes >> tempShiftNum);
             }
-            res.sign.push_back(sign_temp);
-            res.mant.push_back(mant_temp);
         }
 
         if (carry)
@@ -161,6 +159,8 @@ namespace pbrt
     {
         uint16_t carry = 0;
         BfpBlock res;
+        res.sign.resize(m, std::vector<uint16_t>(n, 0));
+        res.mant.resize(m, std::vector<uint64_t>(n, 0));
 
         // check if both blocks have same size
         if (m != b.m || n != b.n)
@@ -176,16 +176,13 @@ namespace pbrt
 
         for (int i = 0; i < m; i++)
         {
-            std::vector<uint16_t> sign_temp;
-            std::vector<uint64_t> mant_temp;
-
             for (int j = 0; j < n; j++)
             {
                 // 1. multiply
                 uint64_t tempRes = mant[i][j] * b.mant[i][j];
 
                 // 2. set sign
-                sign_temp.push_back(sign[i][j] ^ b.sign[i][j]);
+                res.sign[i][j] = sign[i][j] ^ b.sign[i][j];
 
                 // 3. rounding to nearest even
                 tempRes = RoundToNearestEven(tempRes, BFP_MANTISSA_LENGTH);
@@ -194,10 +191,8 @@ namespace pbrt
                 carry = std::max(carry, (uint16_t)(tempRes >> (uint64_t)(BFP_MANTISSA_LENGTH + BFP_MANTISSA_LENGTH + 1)));
 
                 // 5. store result
-                mant_temp.push_back(tempRes >> BFP_MANTISSA_LENGTH);
+                res.mant[i][j] = tempRes >> BFP_MANTISSA_LENGTH;
             }
-            res.sign.push_back(sign_temp);
-            res.mant.push_back(mant_temp);
         }
 
         if (carry)
@@ -282,6 +277,8 @@ namespace pbrt
     {
         uint16_t carry = 0;
         BfpBlock res;
+        res.sign.resize(m, std::vector<uint16_t>(n, 0));
+        res.mant.resize(m, std::vector<uint64_t>(n, 0));
 
         // set blockSize
         res.m = m;
@@ -305,8 +302,6 @@ namespace pbrt
 
         for (int i = 0; i < m; i++)
         {
-            std::vector<uint16_t> sign_temp;
-            std::vector<uint64_t> mant_temp;
             for (int j = 0; j < n; j++)
             {
                 uint64_t tempRes = (uint64_t)0;
@@ -331,11 +326,11 @@ namespace pbrt
                 if (tempRes & 0x8000000000000000)
                 {
                     tempRes = ~tempRes + 1;
-                    sign_temp.push_back((uint16_t)1);
+                    res.sign[i][j] = (uint16_t)1;
                 }
                 else
                 {
-                    sign_temp.push_back((uint16_t)0);
+                    res.sign[i][j] = (uint16_t)0;
                 }
 
                 // 4. rounding to nearest even
@@ -346,10 +341,8 @@ namespace pbrt
                 // std::cout << carry << std::endl;
 
                 // 6. store result
-                mant_temp.push_back(tempRes >> tempShiftNum);
+                res.mant[i][j] = tempRes >> tempShiftNum;
             }
-            res.sign.push_back(sign_temp);
-            res.mant.push_back(mant_temp);
         }
 
         if (carry)
@@ -393,6 +386,8 @@ namespace pbrt
     {
         uint16_t carry = false;
         BfpBlock res;
+        res.sign.resize(m, std::vector<uint16_t>(n, 0));
+        res.mant.resize(m, std::vector<uint64_t>(n, 0));
 
         // get a's sign, exponent, mantissa bits
         BfpNum s(scalar);
@@ -410,15 +405,13 @@ namespace pbrt
 
         for (int i = 0; i < m; i++)
         {
-            std::vector<uint16_t> sign_temp;
-            std::vector<uint64_t> mant_temp;
             for (int j = 0; j < n; j++)
             {
                 // 1. multiply
                 uint64_t tempRes = s.mant * mant[i][j];
 
                 // 2. set sign
-                sign_temp.push_back(s.sign ^ sign[i][j]);
+                res.sign[i][j] = s.sign ^ sign[i][j];
 
                 // 3. rounding to nearest even
                 tempRes = RoundToNearestEven(tempRes, BFP_MANTISSA_LENGTH);
@@ -427,10 +420,64 @@ namespace pbrt
                 carry = std::max(carry, (uint16_t)(tempRes >> (uint64_t)(BFP_MANTISSA_LENGTH + BFP_MANTISSA_LENGTH + 1)));
 
                 // 5. store result
-                mant_temp.push_back(tempRes >> BFP_MANTISSA_LENGTH);
+                res.mant[i][j] = tempRes >> BFP_MANTISSA_LENGTH;
             }
-            res.sign.push_back(sign_temp);
-            res.mant.push_back(mant_temp);
+        }
+
+        if (carry)
+        {
+            res.commonExp += carry;
+            for (int i = 0; i < m; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    res.mant[i][j] >>= carry;
+                }
+            }
+        }
+
+        return res;
+    }
+
+    /* Matrix Multiplication */
+    BfpBlock BfpBlock::MatrixMult(BfpBlock b)
+    {
+        uint16_t carry = 0;
+        BfpBlock res;
+        res.sign.resize(m, std::vector<uint16_t>(b.n, 0));
+        res.mant.resize(m, std::vector<uint64_t>(b.n, 0));
+
+        // check if matrix multiplication is possible
+        if (n != b.m)
+            throw std::invalid_argument(
+                "error[MatrixMult]: blocks' size is unfit for Matrix Multiplication");
+
+        // set blockSize
+        res.m = m;
+        res.n = b.n;
+
+        // decide common exponent
+        res.commonExp = commonExp + b.commonExp - BFP_BIAS;
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                // 1. multiply
+                uint64_t tempRes = mant[i][j] * b.mant[i][j];
+
+                // 2. set sign
+                res.sign[i][j] = sign[i][j] ^ b.sign[i][j];
+
+                // 3. rounding to nearest even
+                tempRes = RoundToNearestEven(tempRes, BFP_MANTISSA_LENGTH);
+
+                // 4. check carry
+                carry = std::max(carry, (uint16_t)(tempRes >> (uint64_t)(BFP_MANTISSA_LENGTH + BFP_MANTISSA_LENGTH + 1)));
+
+                // 5. store result
+                res.mant[i][j] = tempRes >> BFP_MANTISSA_LENGTH;
+            }
         }
 
         if (carry)

@@ -295,7 +295,6 @@ int main(void)
     std::vector<std::vector<double>> b{{-0.5, -1.5}, {1.75, 0.00805664062}, {1.00805699825, 1.00805699825}};
     std::vector<std::vector<double>> c{{0.01171875, 0.013671875}, {0.0146484375, 0.01513671875}, {0.015380859375, 0.015380859375}}; // same exponent: 01111000
 
-
-    testSwap(a, c);
+    testMultScalar(0.01171875, c, false);
     return 0;
 }

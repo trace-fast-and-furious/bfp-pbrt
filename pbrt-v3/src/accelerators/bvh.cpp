@@ -757,6 +757,5 @@ std::shared_ptr<BVHAccel> CreateBVHAccelerator(
 
     int maxPrimsInNode = ps.FindOneInt("maxnodeprims", 4);
     return std::make_shared<BVHAccel>(std::move(prims), maxPrimsInNode, splitMethod);
-}
 
 }  // namespace pbrt
